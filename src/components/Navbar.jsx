@@ -31,13 +31,13 @@ const NavigationBar = () => {
                             <span className="nav-icons">
                                 {/* navigate to google.com */}
                                 <a href="https://www.facebook.com/IIITBofficial/" target="_blank" rel="noreferrer">
-                                    <BsFacebook style={{ color: "white", fontSize: "1.5em" }} />
+                                    <BsFacebook style={{ fontSize: "1.5em" }} className='navbar-social-icons'/>
                                 </a>
 
                             </span>
                             <span className="nav-icons">
                                 <a href="https://www.instagram.com/iiitb_official/" target="_blank" rel="noreferrer">
-                                    <BsInstagram style={{ color: "white", fontSize: "1.5em" }} />
+                                    <BsInstagram style={{fontSize: "1.5em" }} className='navbar-social-icons'/>
                                 </a>
                             </span>
                         </div>
