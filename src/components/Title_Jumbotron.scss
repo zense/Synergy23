@@ -1,9 +1,14 @@
 .title_background{
-    height: 95vh;
+    height: 100vh;
+    background-image: 
+    linear-gradient(149deg, rgba(0,0,0,1) 30%, rgba(0,0,0,0.31463007566307777) 100%),
+    url('../assets/FlowField_dummy.png');
+    background-size : cover;
+    background-repeat: no-repeat;
 }
 
 .empty_space_title{
-    height: 8vh;
+    height: 12vh;
 }
 
 .synergy_is,.back_dot{
@@ -13,7 +18,6 @@
 
 .synergy_is_text,.back_dot_text{
     color: white;
-    padding-left : 2vw;
     text-align: left;
     font-size: 17vmin;
     font-weight: 800;
@@ -24,4 +28,31 @@
 }
 .dot_color{
     color: purple;
+}
+
+.intro_text{
+    padding-left : 6.5vw;
+    padding-right: 6.5vw;
+    color: rgba($color: #ffffff, $alpha: 0.7);
+    font-size: 3.2vmin;
+}
+
+.icon_col{
+    color : white;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.down_arrow_icon{
+    height: 4vmin;
+    width: 4vmin;
+    color: rgba($color: #ffffff, $alpha: 0.8);
+}
+
+.down_arrow_icon_span{
+    border : 2px solid rgba($color: #ffffff, $alpha: 0.8);
+    border-radius: 50%;
+    padding: 2vmin;
 }

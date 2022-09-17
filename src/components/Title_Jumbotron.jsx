@@ -1,9 +1,9 @@
 import './Title_Jumbotron.scss';
-import bg from '../assets/FlowField_dummy.png';
+import homepage_subtitle from '../content/subtitle_texts';
+import {AiOutlineArrowDown} from 'react-icons/ai'; 
 
 const Title_Jumbotron = ()=>{
-    return <div className='container-fluid title_background' style={{ backgroundImage: `url(${bg})`,backgroundSize : 'cover',backgroundRepeat : 'no-repeat'
-    }}>
+    return <div className='container-fluid title_background'>
             <div className="row title_tex">
                 <div className="col-12 col-md-10 col-lg-8">
                     <div className="empty_space_title">
@@ -16,11 +16,23 @@ const Title_Jumbotron = ()=>{
                         <h1 className='back_dot_text'>BACK<span className='dot_color'>.</span></h1>
                     </div>
                     <div className="row intro_text">
-                        IIIT Bangalore is back with its
+                    <div className="col-12 col-md-8">
+                    {homepage_subtitle}
+                    </div>
+                    <div className="col d-none d-md-block"></div>
                     </div>
                 </div>
                 <div className="col d-none d-md-block">
                 </div>
+            </div>
+            <div className="row">
+                <div className="col"></div>
+                <div className="col icon_col">
+                   <span className="down_arrow_icon_span">
+                   <AiOutlineArrowDown className='down_arrow_icon'/>
+                   </span>
+                </div>
+                <div className="col"></div>
             </div>
     </div>
 }

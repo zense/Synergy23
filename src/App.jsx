@@ -1,6 +1,5 @@
 import './App.scss';
 import Title_Jumbotron from './components/Title_Jumbotron';
-
 function App() {
   return (
     <div className="App">
