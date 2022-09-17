@@ -5,11 +5,55 @@
 
     // translate x by 10px
     transform: translateX(-10px);
+    transform: translateY(-15px);
+    font-family: 'Poppins', 'sans-serif';
 
 }
 
 .footer-content {
     margin: 0 30px;
+
+    .footer-logo {
+        // make element inline
+        display: inline-block;
+        padding-right: 15px;
+        font-weight: 700;
+        font-size: 48px;
+    }
+
+    .footer-c {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .footer-heading {
+        font-weight: 700;
+        font-size: 64px;
+    }
+
+    .footer-subheading {
+        font-weight: 700;
+        font-size: 47.5px;
+        margin-top: -12px;
+    }
+
+    .footer-icon {
+        padding-left: 2em;
+        // padding-right: 2em;
+
+    }
+
+    .handles-sub {
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 26px;
+        margin-top: 15px;
+    }
+
+    .foot-icon-list {
+        margin-top: 15px;
+    }
 }
 
 // .timepass-img {
