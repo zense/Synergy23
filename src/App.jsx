@@ -4,8 +4,8 @@ import Slider_section from './components/slider_section';
 function App() {
   return (
     <div className="App">
-      <Title_Jumbotron></Title_Jumbotron>
-      <Slider_section></Slider_section>
+      <Title_Jumbotron />
+      <Slider_section />
     </div>
   );
 }

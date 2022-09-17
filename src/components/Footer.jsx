@@ -12,8 +12,8 @@ const Footer = () => {
                     <div className="footer-content">
                         <div className="row">
                             {/* bootstrap class to center in col */}
-                            <div className="col-sm-2">
-                            </div>
+                                {/* <div className="col-sm-2">
+                                </div> */}
                             <div className="col-sm">
                                 <span>
                                     <h1 className="footer-logo">Logo</h1>
