@@ -1,3 +1,32 @@
-Navbar {
+.navbar-main {
     color: white;
+    font-size: 1.5rem;
+    z-index: 999;
+    background: black;
+    // ! background: linear-gradient(to right, #000000, rgba(0, 0, 0, 0.0005));
+    // background: linear-gradient(108.86deg, #000000 14.66%, rgba(0, 0, 0, 0.921875) 14.66%, rgba(0, 0, 0, 0.744296) 50.03%, rgba(0, 0, 0, 0) 61.17%);
+    // filter: blur(24px);
+
+    #nav-logo {
+        padding: 10px;
+    }
+
+    .nav-item {
+        // color: white;
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 19px;
+        color: #FFFFFF;
+        margin-right: 80px;
+
+        @media screen and (max-width: 1360px) {
+            margin-right: 20px;
+        }
+    }
+
+    .nav-icons {
+        padding-right: 0.6em;
+    }
 }
