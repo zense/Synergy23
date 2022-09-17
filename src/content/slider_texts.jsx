@@ -1,0 +1,6 @@
+const slider_text = [
+    "COLLABORATION","SYNERGY","TECHNOLOGY",
+    "SCIENCE","FUSION","METAMORPHOSIS","INFLUX","GREATNESS","COMPUTING","COMPETITION","HACKATHON","GHOSTS"
+];
+
+export default slider_text;
