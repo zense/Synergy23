@@ -3,20 +3,25 @@ import { AiFillInstagram } from "react-icons/ai";
 import { BsFacebook, BsLinkedin } from "react-icons/bs";
 import { FaTwitter } from "react-icons/fa";
 import { isMobile } from "react-device-detect";
+import iiitbLogo from "../assets/iiitb-logo.png";
 const Footer = () => {
     return (
-        <>
+        <div className="footer">
             <div className="row">
                 <div className="col-sm">
                     <div className="footer-content">
                         <div className="row">
                             {/* bootstrap class to center in col */}
+                            <div className="col-sm-2">
+                            </div>
                             <div className="col-sm">
                                 <span>
                                     <h1 className="footer-logo">Logo</h1>
                                 </span>
                                 <span>
-                                    <h1 className="footer-logo">IIITB-logo</h1>
+                                    <h1 className="footer-logo">
+                                        <img src={iiitbLogo} alt="" />
+                                    </h1>
                                 </span>
                                 <p className="footer-c">© Synergy 2023, IIIT Bangalore</p>
                             </div>
@@ -60,7 +65,7 @@ const Footer = () => {
                     </div>
                 }
             </div>
-        </>
+        </div>
     )
 }
 export default Footer;

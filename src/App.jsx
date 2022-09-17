@@ -1,9 +1,9 @@
 import './App.scss';
-import Footer from './components/Footer';
+import Title_Jumbotron from './components/Title_Jumbotron';
 function App() {
   return (
     <div className="App">
-      <Footer />
+      <Title_Jumbotron></Title_Jumbotron>
     </div>
   );
 }
