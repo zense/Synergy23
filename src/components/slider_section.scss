@@ -17,15 +17,21 @@
     margin-right: 0.4em;
     // INLINE BLOCK
 }
-.scroll_content_1{
+
+.scroll_content {
     overflow-x: scroll;
     overflow-y: hidden;
 }
-.scroll_content_1::-webkit-scrollbar{
+
+.slider_content_right {
+    direction: rtl;
+}
+
+.scroll_content::-webkit-scrollbar {
     display: none;
 }
 
-.slider_section{
+.slider_section {
     background-color: black;
     padding-top: 20vh;
     padding-bottom: 10vh;
