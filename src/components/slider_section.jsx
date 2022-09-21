@@ -39,7 +39,7 @@ const Slider_section = () => {
     const [text_list, setText_list] = useState(slider_text);
 
     const headers_list = text_list.map((header, index) => {
-        if (index % 2 === 1)
+        if (index % 2 === 0)
             return <h1 className="hollow_slider_text">{header + "."}</h1>
         else
             return <h1 className="solid_slider_text">{header + "."}</h1>
@@ -48,9 +48,9 @@ const Slider_section = () => {
     headers_list2.reverse();
     const n = headers_list.length;
 
-    const scrollRef1 = useHorizontalScroll(1);
-    const scrollRef2 = useHorizontalScroll(-1);
-    const scrollRef3 = useHorizontalScroll(1);
+    const scrollRef1 = useHorizontalScroll(2);
+    const scrollRef2 = useHorizontalScroll(-2);
+    const scrollRef3 = useHorizontalScroll(2);
 
     return (
         <div className="slider_section">

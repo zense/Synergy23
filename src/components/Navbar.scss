@@ -2,7 +2,6 @@
     color: white;
     font-size: 1.5rem;
     z-index: 999;
-    background: rgba(0, 0, 0, 0);
 
     #nav-logo {
         padding: 10px;
@@ -36,4 +35,12 @@
     .nav-icons {
         padding-right: 0.6em;
     }
+}
+
+.navbar_transparent{
+    background: rgba(0, 0, 0, 0);
+}
+
+.navbar_black{
+    background: black;
 }
