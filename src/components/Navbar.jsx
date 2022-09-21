@@ -10,7 +10,7 @@ import { BsFacebook, BsInstagram } from "react-icons/bs";
 const NavigationBar = () => {
     return (
         <>
-            <Navbar variant="dark" expand="lg" className="navbar-main" fixed="top">
+            <Navbar variant="dark" expand="md" className="navbar-main" fixed="top">
                 <Container fluid>
                     <Navbar.Brand href="#" className="nav-item" id="nav-logo">LOGO</Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbarScroll" />
