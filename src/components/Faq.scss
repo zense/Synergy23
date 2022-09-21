@@ -18,6 +18,7 @@
 .accordion__label,
 .accordion__content {
     padding: 14px 20px;
+    margin-bottom: 0.2em;
 }
 
 .accordion__label {
@@ -55,6 +56,12 @@
     line-height: 1.6;
     font-size: 1.4em;
     display: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    // line-height: 30px;
+    margin-bottom: 200px;
 }
 
 .accordion__input {
