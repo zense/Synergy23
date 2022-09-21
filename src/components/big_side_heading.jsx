@@ -18,8 +18,8 @@ const Big_side_heading = (props)=>{
                     </div>
                     <div className="row">
                        <h1 className="bs_heading_2">
-                       <div className="col"> {props.heading2.toUpperCase()}
-                        <span className='dot_color'>.</span></div>
+                       <div className="col"> {props.heading2.toUpperCase()}&nbsp;
+                    </div>
                        </h1>
                     </div>
                 </div>

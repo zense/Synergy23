@@ -1,33 +1,69 @@
 import './slider_section.scss'
 import slider_text from '../content/slider_texts';
-import { useEffect, useState } from 'react';
-const Slider_section = () => {
-    const [headers_list, setHeaders_list] = useState(slider_text);
+import { useState } from 'react';
+import { useRef, useEffect } from "react";
 
-    const render_slider = (headers_list) => {
-        return headers_list.map((header, index) => {
-            if (index % 2 == 1)
-                return <h1 className="hollow_slider_text">{header + "."}</h1>
-            else
-                return <h1 className="solid_slider_text">{header + "."}</h1>
-        });
-    }
+
+function useHorizontalScroll (a) {
+    const elRef = useRef();
+    // elRef.current.scrollTo({
+    //     right:0,
+    // });
+    useEffect(() => {
+      const el = elRef.current;
+      if (el) {
+        const onWheel = (e) => {
+          if (e.deltaY === 0) return;
+          if (
+            !(el.scrollLeft === 0 && e.deltaY < 0) &&
+            !(el.scrollWidth - el.clientWidth - Math.round(el.scrollLeft) === 0 && 
+                e.deltaY > 0)
+          ) {
+            e.preventDefault();
+          }
+          el.scrollTo({
+            left: el.scrollLeft +  a*e.deltaY,
+            behavior: 'smooth'
+          });
+        };
+        window.addEventListener('wheel', onWheel);
+        return () => el.removeEventListener('wheel', onWheel);
+      }
+    }, []);
+    return elRef;
+}
+
+
+
+const Slider_section = () => {
+    const [text_list, setText_list] = useState(slider_text);
+
+    const headers_list = text_list.map((header, index) => {
+        if (index % 2 === 0)
+            return <h1 className="hollow_slider_text">{header + "."}</h1>
+        else
+            return <h1 className="solid_slider_text">{header + "."}</h1>
+    });
+    const headers_list2 = [...headers_list];
+    headers_list2.reverse();
+    const n = headers_list.length;
+
+    const scrollRef1 = useHorizontalScroll(2);
+    const scrollRef2 = useHorizontalScroll(-2);
+    const scrollRef3 = useHorizontalScroll(2);
 
     return (
-        <>
-            <div className="Slider_section_1">
-                {/* MAP OVER headers_list */}
-                {render_slider(headers_list)}
+        <div className="slider_section">
+            <div ref = {scrollRef1}className='scroll_content_1'>
+                {headers_list}
             </div>
-            <div className="Slider_section_2">
-                {/* MAP OVER headers_list */}
-                {render_slider(headers_list)}
+            <div ref = {scrollRef2}className='scroll_content_1'>
+                {headers_list2}
             </div>
-            <div className="Slider_section_1">
-                {/* MAP OVER headers_list */}
-                {render_slider(headers_list)}
+            <div ref = {scrollRef3}className='scroll_content_1'>
+                {headers_list}
             </div>
-        </>
+        </div>
     );
 }
 

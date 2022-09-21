@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { useState } from "react";
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
@@ -8,9 +9,19 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import './Navbar.scss';
 import { BsFacebook, BsInstagram } from "react-icons/bs";
 const NavigationBar = () => {
+    const [colorChange, setColorchange] = useState(false);
+  const changeNavbarColor = () =>{
+     if(window.scrollY >= 80){
+       setColorchange(true);
+     }
+     else{
+       setColorchange(false);
+     }
+  };
+  window.addEventListener('scroll', changeNavbarColor);
     return (
         <>
-            <Navbar variant="dark" expand="lg" className="navbar-main" fixed="top">
+            <Navbar variant="dark" expand="md" className={colorChange ? 'navbar-main navbar_black' : 'navbar-main navbar-transparent'} fixed="top">
                 <Container fluid>
                     <Navbar.Brand href="#" className="nav-item" id="nav-logo">LOGO</Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbarScroll" />
