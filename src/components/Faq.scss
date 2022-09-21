@@ -1,5 +1,13 @@
+.faq-heading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 92px;
+    line-height: 138px;
+}
+
 .accordion {
-    max-width: 400px;
+    // max-width: 400px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     overflow: hidden;
@@ -21,7 +29,7 @@
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 33px;
     line-height: 45px;
 }
 
@@ -45,7 +53,7 @@
 .accordion__content {
     background: #ffffff;
     line-height: 1.6;
-    font-size: 0.85em;
+    font-size: 1.4em;
     display: none;
 }
 

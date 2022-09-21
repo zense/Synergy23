@@ -6,7 +6,7 @@ const Faq = () => {
     const renderFaqs = (faqs) => {
         return faqs.map((faq, index) => {
             return (
-                <div>
+                <div className='accordion-content'>
                     <input type="radio" name="example_accordion" id={`section${index}`} class="accordion__input"></input>
                     <label for={`section${index}`} class="accordion__label">{faq.question}</label>
                     <div class="accordion__content">
@@ -20,8 +20,13 @@ const Faq = () => {
     }
     return (
         <Container>
-            <div class="accordion">
-                {renderFaqs(faqs)}
+            {/* div centered inside container */}
+            <div className="faq">
+                <h1 className='faq-heading'>Faq<span class="dot_color">.</span></h1>
+                {/* center accordion div */}
+                <div className="row accordion">
+                    {renderFaqs(faqs)}
+                </div>
             </div>
         </Container>
     )

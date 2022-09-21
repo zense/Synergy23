@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <Title_Jumbotron />
-      {/* <Slider_section /> */}
+      <Slider_section />
 
       <Big_side_heading
         heading1="About"

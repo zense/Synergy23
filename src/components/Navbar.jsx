@@ -8,17 +8,21 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import './Navbar.scss';
 import { BsFacebook, BsInstagram } from "react-icons/bs";
+import { isMobile } from "react-device-detect";
 const NavigationBar = () => {
     const [colorChange, setColorchange] = useState(false);
-  const changeNavbarColor = () =>{
-     if(window.scrollY >= 80){
-       setColorchange(true);
-     }
-     else{
-       setColorchange(false);
-     }
-  };
-  window.addEventListener('scroll', changeNavbarColor);
+    const changeNavbarColor = () => {
+        if (window.scrollY >= 80) {
+            setColorchange(true);
+        }
+        else if (isMobile) {
+            setColorchange(true);
+        }
+        else {
+            setColorchange(false);
+        }
+    };
+    window.addEventListener('scroll', changeNavbarColor);
     return (
         <>
             <Navbar variant="dark" expand="md" className={colorChange ? 'navbar-main navbar_black' : 'navbar-main navbar-transparent'} fixed="top">
@@ -42,13 +46,13 @@ const NavigationBar = () => {
                             <span className="nav-icons">
                                 {/* navigate to google.com */}
                                 <a href="https://www.facebook.com/IIITBofficial/" target="_blank" rel="noreferrer">
-                                    <BsFacebook style={{ fontSize: "1.5em" }} className='navbar-social-icons'/>
+                                    <BsFacebook style={{ fontSize: "1.5em" }} className='navbar-social-icons' />
                                 </a>
 
                             </span>
                             <span className="nav-icons">
                                 <a href="https://www.instagram.com/iiitb_official/" target="_blank" rel="noreferrer">
-                                    <BsInstagram style={{fontSize: "1.5em" }} className='navbar-social-icons'/>
+                                    <BsInstagram style={{ fontSize: "1.5em" }} className='navbar-social-icons' />
                                 </a>
                             </span>
                         </div>
