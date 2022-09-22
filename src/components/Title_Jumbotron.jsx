@@ -32,7 +32,7 @@ const Title_Jumbotron = () => {
             <div className="col d-none d-md-block">
             </div>
         </div>
-        <div className="row">
+        <div className="row icon-bt-row position-absolute bottom-0 start-50 translate-middle">
             <div className="col"></div>
             <div className="col icon_col">
                 <span className="down_arrow_icon_span">

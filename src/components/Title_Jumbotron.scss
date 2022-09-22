@@ -46,7 +46,6 @@
     font-weight: 600;
     display: flex;
     justify-content: center;
-    align-content: center;
 }
 
 .down_arrow_icon {
@@ -60,4 +59,10 @@
     height: fit-content;
     width: fit-content;
     padding: 2vmin;
+}
+
+.icon-bt-row{
+    display: block;
+    margin-top: auto;
+    margin-bottom: 3px;
 }

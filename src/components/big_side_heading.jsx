@@ -24,7 +24,7 @@ const Big_side_heading = (props)=>{
                     </div>
                 </div>
             </div>
-            <div className="col-12 col-md-6">
+            <div className="col-12 col-md-6 content_style">
                 {props.content}
             </div>
         </div>

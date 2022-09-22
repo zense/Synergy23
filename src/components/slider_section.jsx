@@ -25,12 +25,6 @@ function useHorizontalScroll(a) {
           left: el.scrollLeft + a * e.deltaY,
           behavior: 'smooth'
         });
-        if (a < 0) {
-          el.scrollTo({
-            right: el.scrollRight + a * e.deltaY,
-            behavior: 'smooth'
-          })
-        }
       };
       window.addEventListener('wheel', onWheel);
       return () => el.removeEventListener('wheel', onWheel);

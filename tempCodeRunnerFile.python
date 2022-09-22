@@ -1,0 +1,12 @@
+import random 
+s = 0
+r = 0
+for i in range(1000000):
+    k = random.randint(1,2)
+    if k==1: 
+        s+=1
+    else:
+        r+=1
+        
+print(s,r)
+print("subhajeet wins") if s>r else print("rohit wins")
