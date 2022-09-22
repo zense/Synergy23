@@ -18,7 +18,7 @@ function App() {
         className='about_us_section'
       ></Big_side_heading>
       <Faq />
-      <Speakers />
+      <Speakers title={"Speakers"} />
     </div>
   );
 }
