@@ -6,9 +6,6 @@ import { useRef, useEffect } from "react";
 
 function useHorizontalScroll(a) {
   const elRef = useRef();
-  // elRef.current.scrollTo({
-  //     right:0,
-  // });
   useEffect(() => {
     const el = elRef.current;
     if (el) {
@@ -19,7 +16,7 @@ function useHorizontalScroll(a) {
           !(el.scrollWidth - el.clientWidth - Math.round(el.scrollLeft) === 0 &&
             e.deltaY > 0)
         ) {
-          e.preventDefault();
+          // e.preventDefault();
         }
         el.scrollTo({
           left: el.scrollLeft + a * e.deltaY,
