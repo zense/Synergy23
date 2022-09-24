@@ -14,7 +14,6 @@
         font-weight: 400;
         font-size: 24px;
         line-height: 19px;
-        color: rgba(170, 170, 170);
         margin-right: 80px;
 
         @media screen and (max-width: 1360px) {
@@ -26,10 +25,10 @@
         color: rgba(170, 170, 170);
     }
 
-    .nav-item:hover,
-    .navbar-social-icons:hover {
-        color: white;
-    }
+    // .nav-item:hover,
+    // .navbar-social-icons:hover {
+    //     color: white;
+    // }
 
 
     .nav-icons {
@@ -39,8 +38,21 @@
 
 .navbar_transparent{
     background: rgba(0, 0, 0, 0);
+
+    .nav-item:hover,
+    .navbar-social-icons:hover {
+        color: white;
+    }
 }
 
 .navbar_black{
     background: black;
+    .navbar-social-icons,.nav-item{
+        color: white;
+    }
+
+    .nav-item:hover,
+    .navbar-social-icons:hover {
+        color: rgba(170, 170, 170);
+    }
 }
