@@ -36,9 +36,9 @@ const NavigationBar = () => {
                             navbarScroll
                         >
                             <Nav.Link href="#action1" className="nav-item">Home</Nav.Link>
-                            <Nav.Link href="#action2" className="nav-item">Workshops</Nav.Link>
-                            <Nav.Link href="#action2" className="nav-item">Competitions</Nav.Link>
-                            <Nav.Link href="#action2" className="nav-item">Panel Discussions</Nav.Link>
+                            <Nav.Link href="#action2" className="nav-item">Events</Nav.Link>
+                            {/* <Nav.Link href="#action2" className="nav-item">Competitions</Nav.Link> */}
+                            {/* <Nav.Link href="#action2" className="nav-item">Panel Discussions</Nav.Link> */}
                             <Nav.Link href="#action2" className="nav-item">Talks</Nav.Link>
                             <Nav.Link href="#action2" className="nav-item">Team</Nav.Link>
                         </Nav>
@@ -59,7 +59,6 @@ const NavigationBar = () => {
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
-
         </>
     )
 }
