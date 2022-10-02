@@ -38,7 +38,7 @@ const NavigationBar = () => {
                             <Nav.Link href="#action1" className="nav-item">Home</Nav.Link>
                             <Nav.Link href="#action2" className="nav-item">Events</Nav.Link>
                             <Nav.Link href="#action2" className="nav-item">Talks</Nav.Link>
-                            <Nav.Link href="#action2" className="nav-item">Team</Nav.Link>
+                            <Nav.Link href="/team" className="nav-item">Team</Nav.Link>
                         </Nav>
                         <div className="d-flex">
                             <span className="nav-icons">

@@ -7,6 +7,7 @@ import { BrowserRouter } from 'react-router-dom';
 import NavigationBar from './components/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from './components/Footer';
+import Team from './screens/Team';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -15,8 +16,9 @@ root.render(
       <NavigationBar />
       <Routes>
         <Route path="/" element={<App />} />
+        <Route path="/team" element={<Team />} />
       </Routes>
-      <Footer/>
+      <Footer />
     </BrowserRouter>
   </React.StrictMode>
 );
