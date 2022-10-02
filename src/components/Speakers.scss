@@ -1,14 +1,23 @@
 .cards {
     display: flex;
     overflow: hidden;
-    width: 100%;
+    overflow-x: scroll;
+    //width: 100%;
     gap: 3.6em;
     // margin-left: 108px;
-    margin-top: 30px;
+    margin-top: 2vw;
+    margin-bottom: 5vw;
+}
+.cards::-webkit-scrollbar{
+    display: none;
 }
 
-h1 {
+.speakerHeading {
+    font-family: 'Poppins';
+    font-style: normal;
     font-weight: 700;
+    font-size: 92px;
+    line-height: 138px;
 }
 
 
@@ -16,16 +25,19 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-left: 108px;
-    margin-right: 108px;
+    //margin-left: 15vw;
+    //margin-right: 14vw;
+    margin-top: 10vw;  
 }
 
 .icon {
-    height: 60px;
-    width: 60px;
-    margin-right: 10px;
+    height: 3vw;
+    width: 3vw;
+    margin-right: 1vw;
 }
 
-.headings {
-    margin-top: 150px;
+.wrapper{
+    scrollbar-color: transparent transparent;
 }
+
+

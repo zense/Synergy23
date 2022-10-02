@@ -5,8 +5,7 @@ import { BsArrowRightCircle } from "react-icons/bs"
 import speakersLst from "../content/speakers";
 import { useEffect, useRef, useState } from "react";
 import { Button, Container } from "react-bootstrap";
-
-
+import {isDesktop} from "react-device-detect";
 const Speakers = (props) => {
     const elementRef = useRef(null);
     const [arrowDisable, setArrowDisable] = useState(true);
@@ -28,28 +27,32 @@ const Speakers = (props) => {
     };
     return (
         <>
-            <div className="top">
-                <div className="headings">
-                    <h1>{props.title}</h1>
-                    <   h2>{props.subtitle}</h2>
-                </div>
-                <div className="icons">
-                    <BsArrowLeftCircle className="icon" onClick={() => {
-                        handleHorizantalScroll(elementRef.current, 25, 100, -10);
-                    }}
-                        disabled={arrowDisable} />
-                    <BsArrowRightCircle className="icon" onClick={() => {
-                        handleHorizantalScroll(elementRef.current, 25, 100, 10);
-                    }} />
-                </div>
+            <div className="wrapper">
+                <Container className="top">
+                    <div className="headings">
+                        <h1 className="speakerHeading">{props.title}<span className="dot_color">.</span></h1>
+                        <h2>{props.subtitle}</h2>
+                    </div>
+                    {isDesktop && 
+                        <div className="icons">
+                            <BsArrowLeftCircle className="icon" onClick={() => {
+                                handleHorizantalScroll(elementRef.current, 25, 100, -10);
+                            }}
+                                disabled={arrowDisable} />
+                            <BsArrowRightCircle className="icon" onClick={() => {
+                                handleHorizantalScroll(elementRef.current, 25, 100, 10);
+                            }} />
+                        </div>
+                    }
+                </Container>
+                <Container className="cards" ref={elementRef}>
+                    {speakersLst.map((speaker) => {
+                        return (
+                            <Card />
+                        )
+                    })}
+                </Container>
             </div>
-            <Container className="cards" ref={elementRef}>
-                {speakersLst.map((speaker) => {
-                    return (
-                        <Card />
-                    )
-                })}
-            </Container>
         </>
     )
 }

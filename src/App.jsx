@@ -6,9 +6,16 @@ import about_us_text from './content/about_us';
 import Faq from './components/Faq';
 import Speakers from './components/Speakers';
 import { TimeLine } from './components/Timeline';
+import Scrollbar from 'smooth-scrollbar';
+
+// Scrollbar.init(document.querySelector("body"), {
+//   damping: 0.1,
+//   alwaysShowTracks: true,
+//   renderByPixels: true,
+// });
 function App() {
   return (
-    <div className="App">
+    <div className="App" >
       <Title_Jumbotron />
       <Slider_section />
 
@@ -20,7 +27,6 @@ function App() {
       ></Big_side_heading>
       <Faq />
       <Speakers title={"Speakers"} />
-      <TimeLine></TimeLine>
     </div>
   );
 }

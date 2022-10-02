@@ -1,3 +1,4 @@
+
 .hollow_slider_text {
     color: rgba(0, 0, 0, 0);
     font-size: 17vmin;
@@ -21,6 +22,7 @@
 .scroll_content {
     overflow-x: scroll;
     overflow-y: hidden;
+    
 }
 
 .slider_content_right {
@@ -31,8 +33,15 @@
     display: none;
 }
 
+// .scroll_content::-moz-scrollbar {
+//     display: none;
+// }
+
+
 .slider_section {
     background-color: black;
     padding-top: 20vh;
     padding-bottom: 10vh;
+    scrollbar-width: 0;
+    scrollbar-color: transparent transparent;
 }

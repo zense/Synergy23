@@ -1,3 +1,10 @@
+@-moz-document url-prefix() {
+    html,
+    body {
+      scrollbar-width: none;
+    }
+  }
+
 .App {
     background: black;
     color: white;
@@ -5,6 +12,11 @@
     padding: 0;
 }
 
-.about_us_section{
+.about_us_section {
     margin-bottom: 20vh;
+}
+
+body {
+    height: 100vh;
+    overflow: auto;
 }
