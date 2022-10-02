@@ -40,7 +40,7 @@ const NavigationBar = () => {
                             {/* <Nav.Link href="#action2" className="nav-item">Competitions</Nav.Link> */}
                             {/* <Nav.Link href="#action2" className="nav-item">Panel Discussions</Nav.Link> */}
                             <Nav.Link href="#action2" className="nav-item">Talks</Nav.Link>
-                            <Nav.Link href="#action2" className="nav-item">Team</Nav.Link>
+                            <Nav.Link href="/team" className="nav-item">Team</Nav.Link>
                         </Nav>
                         <div className="d-flex">
                             <span className="nav-icons">

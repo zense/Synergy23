@@ -1,9 +1,8 @@
 import './Title_Jumbotron.scss';
-import homepage_subtitle from '../content/subtitle_texts';
 import { BsArrowDownCircle } from 'react-icons/bs';
 import { Button } from 'react-bootstrap';
 
-const Title_Jumbotron = () => {
+const Title_Jumbotron = (props) => {
     const slideDown = () => {
         window.scrollTo({
             top: window.innerHeight / 2,
@@ -17,14 +16,15 @@ const Title_Jumbotron = () => {
 
                 </div>
                 <div className="row synergy_is">
-                    <h1 className='synergy_is_text'>Synergy is</h1>
+                    <h1 className='synergy_is_text'>{props.bigHeader}</h1>
                 </div>
                 <div className="row back_dot">
-                    <h1 className='back_dot_text'>BACK<span className='dot_color'>.</span></h1>
+                    <h1 className='back_dot_text'>{props.bigHeaderCaps}<span className='dot_color'>.</span></h1>
                 </div>
+                {/* add margin-top 10px */}
                 <div className="row intro_text">
                     <div className="col-12 col-md-8">
-                        {homepage_subtitle}
+                        {props.subtitle}
                     </div>
                     <div className="col d-none d-md-block"></div>
                 </div>
