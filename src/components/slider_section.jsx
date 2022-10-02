@@ -57,8 +57,6 @@ const Slider_section = () => {
   const scrollRef2 = useHorizontalScroll(-2);
   const scrollRef3 = useHorizontalScroll(2);
 
-
-
   return (
     <div className="slider_section" id="sliderContent">
       <div ref={scrollRef1} className='scroll_content'>
