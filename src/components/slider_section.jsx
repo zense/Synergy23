@@ -2,7 +2,6 @@ import './slider_section.scss'
 import slider_text from '../content/slider_texts';
 import { useState } from 'react';
 import { useRef, useEffect } from "react";
-import Scrollbar from 'smooth-scrollbar';
 function useHorizontalScroll(a) {
   const elRef = useRef();
   useEffect(() => {
@@ -57,13 +56,6 @@ const Slider_section = () => {
   const scrollRef1 = useHorizontalScroll(2);
   const scrollRef2 = useHorizontalScroll(-2);
   const scrollRef3 = useHorizontalScroll(2);
-
-  // useEffect(() => {
-  //   Scrollbar.init(document.querySelector("#sliderContent"), {
-  //     damping: 0.01,
-  //     alwaysShowTracks: true,
-  //   });
-  // })
 
   return (
     <div className="slider_section" id="sliderContent">

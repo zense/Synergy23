@@ -7,6 +7,7 @@ import { BrowserRouter } from 'react-router-dom';
 import NavigationBar from './components/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from './components/Footer';
+import Events from './screens/events';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -15,6 +16,8 @@ root.render(
       <NavigationBar />
       <Routes>
         <Route path="/" element={<App />} />
+        {/* <Route path="/sponsorus" element = {<SponsorUs/>}/> */}
+        <Route path="/events" element = {<Events/>}/>
       </Routes>
       <Footer/>
     </BrowserRouter>
