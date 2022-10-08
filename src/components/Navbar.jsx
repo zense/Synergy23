@@ -27,7 +27,7 @@ const NavigationBar = () => {
         <>
             <Navbar variant="dark" expand="md" className={colorChange ? 'navbar-main navbar_black' : 'navbar-main navbar-transparent'} fixed="top">
                 <Container fluid>
-                    <Navbar.Brand href="#" className="nav-item" id="nav-logo">LOGO</Navbar.Brand>
+                    <Navbar.Brand href="/" className="nav-item" id="nav-logo">LOGO</Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbarScroll" />
                     <Navbar.Collapse id="navbarScroll">
                         <Nav
@@ -35,10 +35,8 @@ const NavigationBar = () => {
                             style={{ maxHeight: '100px' }}
                             navbarScroll
                         >
-                            <Nav.Link href="#action1" className="nav-item">Home</Nav.Link>
+                            <Nav.Link href="/" className="nav-item">Home</Nav.Link>
                             <Nav.Link href="#action2" className="nav-item">Events</Nav.Link>
-                            {/* <Nav.Link href="#action2" className="nav-item">Competitions</Nav.Link> */}
-                            {/* <Nav.Link href="#action2" className="nav-item">Panel Discussions</Nav.Link> */}
                             <Nav.Link href="#action2" className="nav-item">Talks</Nav.Link>
                             <Nav.Link href="/team" className="nav-item">Team</Nav.Link>
                         </Nav>
