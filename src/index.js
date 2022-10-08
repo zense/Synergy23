@@ -5,10 +5,12 @@ import reportWebVitals from './reportWebVitals';
 import { Routes, Route } from 'react-router-dom';
 import { BrowserRouter } from 'react-router-dom';
 import NavigationBar from './components/Navbar';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from './components/Footer';
-import Events from './screens/events';
+import Events from './screens/Events';
 import Team from './screens/Team';
+
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

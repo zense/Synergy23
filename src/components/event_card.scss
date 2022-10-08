@@ -1,0 +1,41 @@
+.EventCard{
+    padding: 5vmin;
+    margin-top: 4vmin;
+    background-color: black;
+}
+
+.accordion{
+    background-color: black !important;
+}
+.title_row{
+    font-size: 6vmin;
+    font-weight: 700;
+    padding-left : 8vmin;
+    padding-bottom: 4vmin;
+    color: white;
+}
+
+
+
+.btn-purple:hover,
+.btn-purple:active,
+.btn-purple:focus,
+.btn-purple{
+    background-color:#BE00D7!important;
+    color: white  !important;
+    border: none  !important;
+    width: 90% !important;
+    height: 8vmin;
+    margin-top: 5vmin;
+    font-size: 3.3vmin !important;
+    font-weight: 600 !important;
+
+}
+.imagecol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sideimg{
+    width: 100%;
+}
