@@ -36,7 +36,7 @@ const NavigationBar = () => {
                             navbarScroll
                         >
                             <Nav.Link href="/" className="nav-item">Home</Nav.Link>
-                            <Nav.Link href="#action2" className="nav-item">Events</Nav.Link>
+                            <Nav.Link href="/events" className="nav-item">Events</Nav.Link>
                             <Nav.Link href="#action2" className="nav-item">Talks</Nav.Link>
                             <Nav.Link href="/team" className="nav-item">Team</Nav.Link>
                         </Nav>

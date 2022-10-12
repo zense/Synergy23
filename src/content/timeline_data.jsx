@@ -14,7 +14,7 @@ const timeLineLst = {
                 'Registration',
                 'By Prof. Debabrata Das -Director, IIIT Bangalore'
             ),
-        //     new Event_data(
+        //     new Event_data(`
         //         '17:30 - 18:00',
         //         'Registration',
         //         'By Prof. Debabrata Das -Director, IIIT Bangalore'
