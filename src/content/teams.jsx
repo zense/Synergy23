@@ -3,7 +3,7 @@ export const teams = [
         'group': 'Organizers',
         'list': [
             {
-                "content": "Siddharth",
+                "content": "Subhajeet",
                 "img": ""
             },
             {

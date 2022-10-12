@@ -20,8 +20,9 @@ root.render(
       <Routes>
         <Route path="/" element={<App />} />
         {/* <Route path="/sponsorus" element = {<SponsorUs/>}/> */}
-        <Route path="/events" element = {<Events/>}/>
+        <Route path="/events" element={<Events />} />
         <Route path="/team" element={<Team />} />
+        <Route path="/" element={<App />} />
       </Routes>
       <Footer />
     </BrowserRouter>
