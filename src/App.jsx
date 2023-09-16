@@ -5,6 +5,7 @@ import Big_side_heading from './components/big_side_heading';
 import about_us_text from './content/about_us';
 import Faq from './components/Faq';
 import Speakers from './components/Speakers';
+import { TimeLine } from './components/Timeline';
 // import homepage_subtitle
 import { homepage_subtitle } from './content/subtitle_texts';
 function App() {
@@ -19,6 +20,7 @@ function App() {
         content={about_us_text}
         className='about_us_section'
       ></Big_side_heading>
+      <TimeLine/>
       <Faq />
       <Speakers title={"Speakers"} />
     </div>
