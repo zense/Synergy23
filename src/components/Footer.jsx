@@ -4,6 +4,7 @@ import { BsFacebook, BsLinkedin } from "react-icons/bs";
 import { FaTwitter } from "react-icons/fa";
 import { isMobile } from "react-device-detect";
 import iiitbLogo from "../assets/iiitb-logo.png";
+import synergyfooter from '../assets/synergy-footer.svg'
 const Footer = () => {
     return (
         <div className="footer">
@@ -16,11 +17,11 @@ const Footer = () => {
                                 </div> */}
                             <div className="col-sm">
                                 <span>
-                                    <h1 className="footer-logo">Logo</h1>
+                                    <h1 className="footer-logo"><img className="synergylogo" src={synergyfooter} alt="synergy-logo" /></h1>
                                 </span>
                                 <span>
                                     <h1 className="footer-logo">
-                                        <img src={iiitbLogo} alt="" />
+                                        <img className="iiitblogo" src={iiitbLogo} alt="" />
                                     </h1>
                                 </span>
                                 <p className="footer-c">© Synergy 2023, IIIT Bangalore</p>
@@ -28,9 +29,9 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                {/* ! mobile content not shown in mobile view */}
+                {/* ! mobile content not shown in mobile view */}                                                                                           
                 {!isMobile &&
-                    <div className="col-sm mobile">
+                    <div className="col-sm mobile pt-5 d-none d-sm-block">
                         <div className="footer-content">
                             <div className="row">
                                 <div className="col-sm">

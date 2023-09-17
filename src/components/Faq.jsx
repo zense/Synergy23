@@ -7,7 +7,7 @@ const Faq = () => {
         return faqs.map((faq, index) => {
             return (
                 <div className='accordion-content'>
-                    <input type="radio"  name="example_accordion" id={`section${index}`} className="accordion__input"></input>
+                    <input type="checkbox"  name="example_accordion" id={`section${index}`} className="accordion__input"></input>
                     <label for={`section${index}`} className="accordion__label">{faq.question}</label>
                     <div className="accordion__content">
                         <p>
@@ -21,7 +21,7 @@ const Faq = () => {
     return (
         <Container>
             {/* div centered inside container */}
-            <div className="faq">
+            <div className="faq container">
                 <h1 className='faq-heading'>Faq<span className="dot_color">.</span></h1>
                 {/* center accordion div */}
                 <div className="row accordion">

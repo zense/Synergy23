@@ -69,3 +69,9 @@
     margin-top: auto;
     margin-bottom: 3px;
 }
+@media (max-width:767px){
+    .title_tex{
+        position: absolute;
+        top: 18vh;
+    }
+}

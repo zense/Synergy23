@@ -1,11 +1,14 @@
 .faq-heading {
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 700;
+    font-weight: 900;
     font-size: 92px;
     line-height: 138px;
+    margin-bottom: 30px;
 }
-
+.faq{
+    margin-top: 5vw;
+}
 .accordion {
     // max-width: 400px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -22,6 +25,7 @@
 }
 
 .accordion__label {
+    padding-left: 1.5vw;
     display: block;
     color: #ffffff;
     cursor: pointer;
@@ -29,21 +33,24 @@
     transition: background 0.1s;
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 600;
-    font-size: 33px;
-    line-height: 45px;
+    font-weight: 400;
+    font-size: 25px;
+    background-color: #1d1c1c;
+    border-radius: 25px;
+    margin-bottom: 2vmin!important;
+    padding: 30px;
 }
 
-.accordion__label:hover {
+/* .accordion__label:hover {
     background: rgba(0, 0, 0, 0.1);
-}
+} */
 
 .accordion__label::after {
     content: "";
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    right: 20px;
+    right: 30px;
     width: 12px;
     height: 6px;
     background-image: url('data:image/svg+xml;utf8,<svg width="100" height="50" xmlns="http://www.w3.org/2000/svg"><polygon points="0,0 100,0 50,50" style="fill:%23FFFFFF99;" /></svg>');
@@ -53,14 +60,13 @@
 
 .accordion__content {
     line-height: 1.6;
-    font-size: 1.4em;
+    font-size: 2.8vmin;
     display: none;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
-    font-size: 3.5vh;
     // line-height: 30px;
-    margin-bottom: 4.5vh;
+    margin-bottom: 2.5vh;
 }
 
 .accordion__input {
@@ -70,7 +76,16 @@
 .accordion__input:checked~.accordion__content {
     display: block;
 }
-
 .accordion__input:checked~.accordion__label::after {
     transform: translateY(-50%) rotate(0.5turn);
+}
+
+@media (max-width:500px){
+    .accordion__label{
+        font-size: 20px;
+    }
+    .accordion__content{
+        font-size: 20px;
+        margin-bottom: 0;
+    }
 }

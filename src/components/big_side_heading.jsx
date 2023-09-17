@@ -1,8 +1,8 @@
 import './big_side_heading.scss';
 const Big_side_heading = (props)=>{
-    return <div className="big_side_heading container">
+    return <div className="big_side_heading container-fluid">
         <div className="row">
-            <div className="col-12 col-md-6 heading_column">
+            <div className="col-12 col-md-4 heading_column">
                 {/* for smaller screens */}
                 <div className="row d-block d-md-none">
                     <h1 className="small_screen_heading">
@@ -24,7 +24,7 @@ const Big_side_heading = (props)=>{
                     </div>
                 </div>
             </div>
-            <div className="col-12 col-md-6 content_style">
+            <div className="col-12 col-md-8 content_style">
                 {props.content}
             </div>
         </div>

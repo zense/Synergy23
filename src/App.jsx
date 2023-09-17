@@ -13,7 +13,6 @@ function App() {
     <div className="App" >
       <Title_Jumbotron bigHeader={"Synergy is"} bigHeaderCaps={"BACK"} subtitle={homepage_subtitle} />
       <Slider_section />
-
       <Big_side_heading
         heading1="About"
         heading2="Us"

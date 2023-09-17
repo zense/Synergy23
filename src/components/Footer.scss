@@ -1,8 +1,8 @@
 .footer {
-    background: #0b0b0b;
+    background: #1d1c1c;
     color: white;
     overflow-x: hidden;
-    padding-top: 20px;
+    padding-top: 8vh;
 
     .mobile {
         // RED BORDER
@@ -22,9 +22,16 @@
         .footer-logo {
             // make element inline
             display: inline-block;
-            padding-right: 15px;
+            padding-right: 55px;
             font-weight: 700;
             font-size: 48px;
+            padding-bottom: 30px;
+            .synergylogo{
+                width: 25vw;
+            }
+            .iiitblogo{
+                width: 8vw;
+            }
         }
 
         .footer-c {
@@ -66,4 +73,30 @@
     //     height: 100px;
     //     width: 100px;
     // }  
+}
+
+@media (max-width:550px){
+    .footer{
+        padding-top: 0;
+    }
+    .footer-content{
+        margin: 5vw !important;
+        h1{
+            padding: 0 !important;
+            margin-bottom: 0 !important;
+        }
+        p{
+            text-align: center;
+            font-size: 3.5vmin !important;
+            margin-bottom: 0 !important;
+        }
+    }
+    .synergylogo{
+        margin-left: 2vw;
+        width: 55vw !important;
+    }
+    .iiitblogo{
+        margin-left: 10vw;
+        width: 20vw !important;
+    }
 }
