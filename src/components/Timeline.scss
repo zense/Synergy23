@@ -16,17 +16,16 @@ ul li{
 }
 .timetable-heading{
     font-weight: 700;
-    font-size: 80px;
+    font-size: 92px;
 }
 .timetable-dot{
     color: #BE00D7;
-    font-size: 75px;
+    font-size: 17vmin;
 }
 .Timeline{
     background-color: #1D1C1C;
     border-radius: 100px;
     height: auto;
-    margin-top: 5vw;
 }
 .middle-line{
     height:auto;
@@ -118,5 +117,8 @@ ul li{
     .Timeline{
         border-radius: 50px;
         padding-bottom: 50px;
+    }
+    .non-bs-container{
+        margin-left: 1vw !important;
     }
 }

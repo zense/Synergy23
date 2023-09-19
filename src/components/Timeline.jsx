@@ -78,14 +78,15 @@ export const TimeLine = ()=>{
 
     /* const events_list = [];
         events_list.push(specific_time_left(timeLineLst['monday']['8:00'])); */
-    return <div className="Timeline container-fluid d-flex flex-column">
-        <div className="my-5 timetable-heading-container">
+    return<>
+    <div className="mt-5 mb-3 timetable-heading-container">
             <h1 className="timetable-heading mx-lg-5 ">Timetable<span className="timetable-dot">.</span></h1>
         </div>
+     <div className="Timeline container-fluid d-flex flex-column">
         {/* <div className="col">
             {events_list}
         </div> */}
-        <div className="row">
+        <div className="row non-bs-container">
             <div className="col-5 left-desktop desktop-only-events" id="ld">
                 <ul>
                     {leftEvents.map((e,index)=>(<li className="left-L L" key={index}><img src={left} alt="left-L" /></li>))}
@@ -140,4 +141,5 @@ export const TimeLine = ()=>{
             </div>
         </div>
     </div>
+    </>
 }
