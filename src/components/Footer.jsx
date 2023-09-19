@@ -15,7 +15,7 @@ const Footer = () => {
                             {/* bootstrap class to center in col */}
                             {/* <div className="col-sm-2">
                                 </div> */}
-                            <div className="col-sm">
+                            <div className="col-sm ">
                                 <span>
                                     <h1 className="footer-logo"><img className="synergylogo" src={synergyfooter} alt="synergy-logo" /></h1>
                                 </span>
@@ -34,31 +34,31 @@ const Footer = () => {
                     <div className="col-sm mobile pt-5 d-none d-sm-block">
                         <div className="footer-content">
                             <div className="row">
-                                <div className="col-sm">
+                                <div className="col-sm-4 d-flex align-items-center justify-content-center flex-column">
                                     <h1 className="footer-heading">Social</h1>
                                     <h1 className="footer-subheading">Handles</h1>
                                 </div>
-                                <div className="col-sm">
+                                <div className="col-sm-8 d-flex align-items-center justify-content-center">
                                     <div className="row">
                                         {/* space items evenly in column */}
                                         <div className="col-sm foot-icon-list">
                                             <a href="https://www.instagram.com/iiitb_official/" target="_blank" rel="noreferrer" className="footer-icon">
-                                                <AiFillInstagram style={{ color: "white", fontSize: "2.5em" }} />
+                                                <AiFillInstagram className="footer-icon-svg" style={{ color: "white", fontSize: "2.5em" }} />
                                             </a>
                                             <a href="https://www.facebook.com/IIITBofficial/" target="_blank" rel="noreferrer" className="footer-icon">
-                                                <BsFacebook style={{ color: "white", fontSize: "2.3em" }} />
+                                                <BsFacebook className="footer-icon-svg" style={{ color: "white", fontSize: "2.3em" }} />
                                             </a>
                                             <a href="https://in.linkedin.com/school/iiit-bangalore/" target="_blank" rel="noreferrer" className="footer-icon">
-                                                <BsLinkedin style={{ color: "white", fontSize: "2.3em" }} />
+                                                <BsLinkedin className="footer-icon-svg" style={{ color: "white", fontSize: "2.3em" }} />
                                             </a>
                                             <a href="https://twitter.com/IIITB_official" target="_blank" rel="noreferrer" className="footer-icon">
-                                                <FaTwitter style={{ color: "white", fontSize: "2.3em" }} />
+                                                <FaTwitter className="footer-icon-svg" style={{ color: "white", fontSize: "2.3em" }} />
                                             </a>
                                         </div>
                                     </div>
-                                    <div className="row handles-sub">
+                                    {/* <div className="row handles-sub">
                                         Connect and Don't miss a thing.
-                                    </div>
+                                    </div> */}
 
                                 </div>
                             </div>

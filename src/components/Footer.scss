@@ -3,7 +3,6 @@
     color: white;
     overflow-x: hidden;
     padding-top: 8vh;
-
     .mobile {
         // RED BORDER
         // only left border with height of 20 px
@@ -17,7 +16,7 @@
     }
 
     .footer-content {
-        margin: 0 30px;
+        margin: 0 30px 30px 30px;
 
         .footer-logo {
             // make element inline
@@ -42,19 +41,21 @@
 
         .footer-heading {
             font-weight: 700;
-            font-size: 64px;
+            font-size: max(4vw,45px);
         }
 
         .footer-subheading {
             font-weight: 400;
-            font-size: 47.5px;
+            font-size: max(3vw,35px);
             margin-top: -12px;
         }
 
         .footer-icon {
-            padding-left: 2em;
-            // padding-right: 2em;
+            padding-left: 5em;
 
+        }
+        .footer-icon-svg{
+            margin-bottom: 15px;
         }
 
         .handles-sub {
@@ -75,12 +76,12 @@
     // }  
 }
 
-@media (max-width:550px){
+@media (max-width:576px){
     .footer{
         padding-top: 0;
     }
     .footer-content{
-        margin: 5vw !important;
+        margin: 0!important;
         h1{
             padding: 0 !important;
             margin-bottom: 0 !important;

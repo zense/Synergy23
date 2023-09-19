@@ -21,7 +21,7 @@ function App() {
       ></Big_side_heading>
       <TimeLine/>
       <Faq />
-      <Speakers title={"Speakers"} />
+      {/* <Speakers title={"Speakers"} /> */}
     </div>
   );
 }

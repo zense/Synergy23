@@ -16,7 +16,7 @@ ul li{
 }
 .timetable-heading{
     font-weight: 700;
-    font-size: 70px;
+    font-size: 80px;
 }
 .timetable-dot{
     color: #BE00D7;
@@ -26,7 +26,6 @@ ul li{
     background-color: #1D1C1C;
     border-radius: 100px;
     height: auto;
-    width: 80vw !important;
     margin-top: 5vw;
 }
 .middle-line{
@@ -105,14 +104,19 @@ ul li{
     left: 25px;
 }
 
-@media (max-width:500px){
+@media (max-width:767px){
     .timetable-heading{
         font-weight: 700;
-        font-size: 55px;
+        font-size: 17vmin;
         text-align: center;
     }
     .timetable-dot{
         color: #BE00D7;
-        font-size: 60px;
+        font-size: 17vmin;
+        font-weight: 700;
+    }
+    .Timeline{
+        border-radius: 50px;
+        padding-bottom: 50px;
     }
 }

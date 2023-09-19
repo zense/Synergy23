@@ -1,13 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
 .faq-heading {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
-    font-weight: 900;
-    font-size: 92px;
+    font-weight: 700;
+    font-size: 90px;
     line-height: 138px;
     margin-bottom: 30px;
 }
 .faq{
     margin-top: 5vw;
+    margin-bottom: 60px;
 }
 .accordion {
     // max-width: 400px;
@@ -80,12 +83,19 @@
     transform: translateY(-50%) rotate(0.5turn);
 }
 
-@media (max-width:500px){
+@media (max-width:767px){
     .accordion__label{
         font-size: 20px;
     }
     .accordion__content{
-        font-size: 20px;
+        font-size: 18px;
         margin-bottom: 0;
+    }
+    .faq-heading{
+        text-align: center;
+        font-size: 17vmin;
+    }
+    .accordion__content{
+        padding: 7px 10px;
     }
 }

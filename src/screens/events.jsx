@@ -7,8 +7,8 @@ function Events(){
     return (
     <div className="Events">
          <Title_Jumbotron bigHeader={"Discover"} bigHeaderCaps={"Synergy"} subtitle= {events_page_subtitle}/>
-         <EventCard title = "Event Name"/>
-         <EventCard title = "Another event"/>
+         <EventCard title = "Event Name" qid = "1" ansid="1a"/>
+         <EventCard title = "Another event" qid = '2' ansid="2a"/>
     </div>
     );  
 }

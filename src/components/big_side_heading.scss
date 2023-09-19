@@ -2,11 +2,11 @@
     background-color: black;
     padding-top: 10vh;
     padding-bottom: 10vh;
-    width: 100%;
+    width: 90% !important;
 }
 .small_screen_heading{
     font-weight: 700;
-    font-size: 10vmin;
+    font-size: 18vmin;
 }
 .bs_heading_1{
     text-align: center;
@@ -29,6 +29,11 @@
     justify-content: center;
 }
 .content_style{
-    justify-content: center;
-    font-size: 3.5vh;
+    font-size: 28px;
+}
+
+@media (max-width:767px){
+    .content_style{
+        font-size: 20px;
+    }
 }

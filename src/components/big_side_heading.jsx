@@ -10,7 +10,7 @@ const Big_side_heading = (props)=>{
                         <span className='dot_color'>.</span>
                     </h1>
                 </div>
-                <div className="row d-none d-md-block">
+                <div className="row d-none d-md-block heading-large">
                     <div className="row">
                         <h1 className="bs_heading_1">
                         {props.heading1}
@@ -24,7 +24,7 @@ const Big_side_heading = (props)=>{
                     </div>
                 </div>
             </div>
-            <div className="col-12 col-md-8 content_style">
+            <div className="col-12 col-md-8 content_style d-flex align-items-center justify-content-center">
                 {props.content}
             </div>
         </div>

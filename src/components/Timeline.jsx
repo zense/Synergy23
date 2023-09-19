@@ -59,7 +59,7 @@ export const TimeLine = ()=>{
         const ld = document.getElementById('ld');
         const rd = document.getElementById('rd');
         const mob = document.getElementById('mob');
-        if(window.innerWidth<500){
+        if(window.innerWidth<767){
             ld.style.display='none';
             rd.style.display='none';
             mob.style.display='flex';
