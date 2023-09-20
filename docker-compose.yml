@@ -1,0 +1,7 @@
+version: '3'
+services:
+  synergy:
+    image: rohitshah1706/synergy:latest
+    container_name: synergy
+    ports:
+      - "5000:80"
