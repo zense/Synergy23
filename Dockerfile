@@ -19,8 +19,15 @@ RUN npm run build
 # Use Nginx as the production web server
 FROM nginx:alpine
 
+WORKDIR /usr/share/nginx/html
+
+RUN rm -rf ./*
+
 # Copy the built app to the Nginx web server directory
-COPY --from=build /app/build /usr/share/nginx/html
+COPY --from=build /app/build .
+
+# Add the Nginx configuration file to handle client side routing
+COPY nginx.conf /etc/nginx/conf.d/default.conf
 
 # Expose port 80 (HTTP) and port 443 (HTTPS)
 EXPOSE 80
