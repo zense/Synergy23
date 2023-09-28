@@ -21,7 +21,7 @@ function EventCard(props) {
           </div>
           <div className="row">
             
-            <div class="accordion accordion-flush" id="accordionExample">
+            <div class="accordion" id="accordionExample">
               {/* <OneFaqQuestion heading = "An excessively long question to see how the button handles really really hot stuff. It handles it well. Nice!!" body = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolor dignissimos eum ea, enim corporis harum rerum voluptatibus ducimus quae quidem consectetur fuga assumenda ex laborum officia perspiciatis tempore, iure vitae mollitia. Unde, maxime? Aperiam nemo reprehenderit, magnam tempore alias nesciunt assumenda voluptatem, facere vero accusamus repellat optio, facilis labore?"
               id = "one"
               /> */}

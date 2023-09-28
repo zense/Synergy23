@@ -48,6 +48,7 @@
     overflow: hidden;
     font-family: "Quicksand", sans-serif;
     background: #101010;
+
 }
 
 .accordion__label,
@@ -120,12 +121,10 @@
     .accordion__content{
         font-size: 18px;
         margin-bottom: 0;
+        padding: 7px 10px;
     }
     .faq-heading{
         text-align: center;
         font-size: 17vmin;
-    }
-    .accordion__content{
-        padding: 7px 10px;
     }
 }

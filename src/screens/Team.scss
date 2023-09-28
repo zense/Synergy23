@@ -12,11 +12,12 @@
     .back_dot_text {
         color: white;
         text-align: left;
-        font-size: 13vmin;
+        font-size: 15.5vmin;
         font-weight: 800;
 
         @media (max-width: 1400px) {
             font-size: 10vmin;
+            font-size: 17vmin;
         }
     }
 }
