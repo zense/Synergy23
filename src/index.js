@@ -11,6 +11,7 @@ import Team from './screens/Team';
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
+import Collaborators from './screens/Collaborators';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -19,9 +20,9 @@ root.render(
       <NavigationBar />
       <Routes>
         <Route path="/" element={<App />} />
-        {/* <Route path="/sponsorus" element = {<SponsorUs/>}/> */}
         <Route path="/events" element={<Events />} />
         <Route path="/team" element={<Team />} />
+        <Route path="/collaborators" element={<Collaborators />} />
         <Route path="/" element={<App />} />
       </Routes>
       <Footer />

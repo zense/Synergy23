@@ -19,32 +19,14 @@ function EventCard(props) {
             <img src={rect} alt="" className="sideimg"/>
             </div>
           </div>
-          <div className="row">
-            
+          <div className="row">     
             <div class="accordion" id="accordionExample">
-              {/* <OneFaqQuestion heading = "An excessively long question to see how the button handles really really hot stuff. It handles it well. Nice!!" body = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolor dignissimos eum ea, enim corporis harum rerum voluptatibus ducimus quae quidem consectetur fuga assumenda ex laborum officia perspiciatis tempore, iure vitae mollitia. Unde, maxime? Aperiam nemo reprehenderit, magnam tempore alias nesciunt assumenda voluptatem, facere vero accusamus repellat optio, facilis labore?"
-              id = "one"
-              /> */}
-              <div className='accordion-content'>
-                    <input type="checkbox"  name="example_accordion" /* id={`section${index}`} */ id={props.qid} className="accordion__input"></input>
-                    <label /* for={`section${index}`} */ htmlFor={props.qid} className="accordion__label">"An excessively long question to see how the button handles really really hot stuff. It handles it well. Nice!!"</label>
-                    <div className="accordion__content">
-                        <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolor dignissimos eum ea, enim corporis harum rerum voluptatibus ducimus quae quidem consectetur fuga assumenda ex laborum officia perspiciatis tempore, iure vitae mollitia. Unde, maxime? Aperiam nemo reprehenderit, magnam tempore alias nesciunt assumenda voluptatem, facere vero accusamus repellat optio, facilis labore?
-                        </p>
-                    </div>
+                <div className='accordion-content'>
+                    <div className="event_text">"An excessively long question to see how the button handles really really hot stuff. It handles it well. Nice!!"</div>
                 </div>
-              <div className='accordion-content'>
-                    <input type="checkbox"  name="example_accordion" /* id={`section${index}`} */ id={props.ansid} className="accordion__input"></input>
-                    <label /* for={`section${index}`} */ htmlFor={props.ansid} className="accordion__label">"An excessively long question to see how the button handles really really hot stuff. It handles it well. Nice!!"</label>
-                    <div className="accordion__content">
-                        <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolor dignissimos eum ea, enim corporis harum rerum voluptatibus ducimus quae quidem consectetur fuga assumenda ex laborum officia perspiciatis tempore, iure vitae mollitia. Unde, maxime? Aperiam nemo reprehenderit, magnam tempore alias nesciunt assumenda voluptatem, facere vero accusamus repellat optio, facilis labore?
-                        </p>
-                    </div>
+                <div className='accordion-content'>
+                    <div className="event_text">"An excessively long question to see how the button handles really really hot stuff. It handles it well. Nice!!"</div>
                 </div>
-              {/* <OneFaqQuestion heading = "Another seemingly important but actually stupid question" body = "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum neque molestias mollitia. Mollitia et dicta esse aspernatur, praesentium quod ea distinctio omnis aliquam quidem illum sunt molestias quia minus labore dolorem voluptas laudantium suscipit amet? Ducimus ut cupiditate dolor modi porro consequuntur. Cupiditate alias reprehenderit omnis dicta ea voluptas itaque. Voluptatum optio repellat quisquam laborum magni excepturi dignissimos distinctio expedita?"
-              id = "two"/> */}
             </div>
 
           </div>

@@ -41,7 +41,7 @@ export const teams = [
             },
         ]
     },
-    {
+    /* {
         'group': 'Design Team',
         'list': [
             {
@@ -103,5 +103,5 @@ export const teams = [
                 "img": ""
             },
         ]
-    },
+    }, */
 ]

@@ -51,17 +51,16 @@
 
 }
 
-.accordion__label,
+.event_text,
 .accordion__content {
     padding: 14px 20px;
     margin-bottom: 5vh;
 }
 
-.accordion__label {
+.event_text {
     padding-left: 1.5vw;
     display: block;
     color: #ffffff;
-    cursor: pointer;
     position: relative;
     transition: background 0.1s;
     font-family: 'Poppins';
@@ -74,11 +73,11 @@
     padding: 30px;
 }
 
-/* .accordion__label:hover {
+/* .event_text:hover {
     background: rgba(0, 0, 0, 0.1);
 } */
 
-.accordion__label::after {
+/* .event_text::after {
     content: "";
     position: absolute;
     top: 50%;
@@ -89,7 +88,7 @@
     background-image: url('data:image/svg+xml;utf8,<svg width="100" height="50" xmlns="http://www.w3.org/2000/svg"><polygon points="0,0 100,0 50,50" style="fill:%23FFFFFF99;" /></svg>');
     background-size: contain;
     transition: transform 0.4s;
-}
+} */
 
 .accordion__content {
     line-height: 1.6;
@@ -110,12 +109,12 @@
 .accordion__input:checked~.accordion__content {
     display: block;
 }
-.accordion__input:checked~.accordion__label::after {
+.accordion__input:checked~.event_text::after {
     transform: translateY(-50%) rotate(0.5turn);
 }
 
 @media (max-width:767px){
-    .accordion__label{
+    .event_text{
         font-size: 20px;
     }
     .accordion__content{

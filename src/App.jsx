@@ -19,7 +19,7 @@ function App() {
         content={about_us_text}
         className='about_us_section'
       ></Big_side_heading>
-      <TimeLine/>
+      {/* <TimeLine/> */}
       <Faq />
       {/* <Speakers title={"Speakers"} /> */}
     </div>

@@ -7,7 +7,7 @@
 }
 
 .Teams {
-
+    padding-bottom: 50px !important;
     .synergy_is_text,
     .back_dot_text {
         color: white;
@@ -16,8 +16,7 @@
         font-weight: 800;
 
         @media (max-width: 1400px) {
-            font-size: 10vmin;
-            font-size: 17vmin;
+            font-size: 11vmin;
         }
     }
 }
