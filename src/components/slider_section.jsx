@@ -2,6 +2,7 @@ import './slider_section.scss'
 import slider_text from '../content/slider_texts';
 import { useState } from 'react';
 import { useRef, useEffect } from "react";
+
 function useHorizontalScroll(a) {
   const elRef = useRef();
   useEffect(() => {
@@ -29,7 +30,6 @@ function useHorizontalScroll(a) {
 }
 
 
-
 const Slider_section = () => {
   const [text_list, setText_list] = useState(slider_text);
 
@@ -53,9 +53,63 @@ const Slider_section = () => {
   const headers_list3 = giveRandomizedHeaderLst();
 
 
-  const scrollRef1 = useHorizontalScroll(2);
-  const scrollRef2 = useHorizontalScroll(-2);
-  const scrollRef3 = useHorizontalScroll(2);
+  const scrollRef1 = useRef(null);
+  const scrollRef2 = useRef(null);
+  const scrollRef3 = useRef(null);
+
+  var direction1 = 30;
+  var direction2 = -30;
+  var direction3 = 30;
+
+  var loaded = false;
+  useEffect(()=>{
+    if(!loaded){
+      loaded = true;
+      const el2 = scrollRef2.current;
+      el2.scrollTo({
+        right : 0
+      })
+    }
+  })
+
+  useEffect(()=>{
+    setInterval(() => {
+      const el1 = scrollRef1.current;
+      const el2 = scrollRef2.current;
+      const el3 = scrollRef3.current;
+
+      if(el1.scrollLeft + window.innerWidth + direction1 >= el1.scrollWidth || el1.scrollLeft + direction1 <= 0){
+        direction1 = -direction1;
+        direction2 = -direction2;
+        direction3 = -direction3;
+        el1.scrollTo({
+          left: el1.scrollLeft + direction1,
+          behavior : 'smooth'
+        });
+        el2.scrollTo({
+          left: el2.scrollLeft + direction2,
+          behavior : 'smooth'
+        });
+        el3.scrollTo({
+          left: el3.scrollLeft + direction3,
+          behavior : 'smooth'
+        });
+      }else{
+        el1.scrollTo({
+          left: el1.scrollLeft + direction1,
+          behavior : 'smooth'
+        });
+        el2.scrollTo({
+          left: el2.scrollLeft + direction2,
+          behavior : 'smooth'
+        });
+        el3.scrollTo({
+          left: el3.scrollLeft + direction3,
+          behavior : 'smooth'
+        });
+      }
+    }, 20);
+  }, [])
 
   return (
     <div className="slider_section" id="sliderContent">
