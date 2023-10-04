@@ -12,9 +12,9 @@ const Collaborators = () => {
   return (
     <div className='collab'>
         <Title_Jumbotron bigHeader={"Our Sponsors"} bigHeaderCaps={"& Collaborators"} subtitle={collab_page_subtitle} />
-        <Container className="wrapper">
+        {/* <Container className="wrapper">
             <h1 className="collab_heading">Sponsors<span className="dot_color">.</span></h1>
-        </Container>
+        </Container> */}
         <Container className="wrapper">
             <h1 className="collab_heading">Collaborators<span className="dot_color">.</span></h1>
             <div className="lab-logos d-flex justify-content-center align-items-center">
@@ -22,8 +22,6 @@ const Collaborators = () => {
                <a href="https://ic.iiitb.ac.in/" target='_blank'><img src={ctridg_logo} alt="" /></a>
                <a href="https://ic.iiitb.ac.in/" target='_blank'><img src={ehrc_logo} alt="" /></a>
                <a href="https://ic.iiitb.ac.in/" target='_blank'><img src={wsl_logo} alt="" /></a>
-                <img src={wsl_logo} alt="" />
-                <img src={wsl_logo} alt="" />
             </div>   
         </Container>
     </div>

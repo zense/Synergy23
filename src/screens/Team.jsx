@@ -8,12 +8,12 @@ const Teams = () => {
     return (
         <div className="Teams">
             <Title_Jumbotron bigHeader={"Meet the people who made it"} bigHeaderCaps={"ALL"} subtitle={team_page_subtitle} />
-            {teams.map((team) =>
+            {/* {teams.map((team) =>
                 <Container className="wrapper">
                     <h1 className="wrapper__heading">{team.group}<span className="dot_color">.</span></h1>
                     <ResponsiveCards cards={team.list} />
                 </Container>
-            )}
+            )} */}
         </div >
     );
 }
