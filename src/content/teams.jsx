@@ -3,19 +3,36 @@ export const teams = [
         'group': 'Organizers',
         'list': [
             {
-                "content": "Subhajeet",
+                "content": "Ansh Avi Khanna",
                 "img": ""
             },
             {
-                "content": "Rohit",
+                "content": "Goutham UR",
                 "img": ""
             },
             {
-                "content": "Keshav",
+                "content": "Sai Madhavan",
+                "img": ""
+            },
+        ]
+    },
+    {
+        'group': 'Mentors',
+        'list': [
+            {
+                "content": "Sarthak Harne",
                 "img": ""
             },
             {
-                "content": "Sam",
+                "content": "Anshul Jindal",
+                "img": ""
+            },
+            {
+                "content": "Chinthan Chandra",
+                "img": ""
+            },
+            {
+                "content": "Monjoy Narayan Choudhary",
                 "img": ""
             },
         ]
@@ -41,67 +58,4 @@ export const teams = [
             },
         ]
     },
-    /* {
-        'group': 'Design Team',
-        'list': [
-            {
-                "content": "Siddharth",
-                "img": ""
-            },
-            {
-                "content": "Rohit",
-                "img": ""
-            },
-            {
-                "content": "Keshav",
-                "img": ""
-            },
-            {
-                "content": "Sam",
-                "img": ""
-            },
-        ]
-    },
-    {
-        'group': 'Marketing Team',
-        'list': [
-            {
-                "content": "Siddharth",
-                "img": ""
-            },
-            {
-                "content": "Rohit",
-                "img": ""
-            },
-            {
-                "content": "Keshav",
-                "img": ""
-            },
-            {
-                "content": "Sam",
-                "img": ""
-            },
-        ]
-    },
-    {
-        'group': 'Content Writers',
-        'list': [
-            {
-                "content": "Siddharth",
-                "img": ""
-            },
-            {
-                "content": "Rohit",
-                "img": ""
-            },
-            {
-                "content": "Keshav",
-                "img": ""
-            },
-            {
-                "content": "Sam",
-                "img": ""
-            },
-        ]
-    }, */
 ]

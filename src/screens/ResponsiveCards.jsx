@@ -1,6 +1,7 @@
 import { Row, Col } from "react-bootstrap";
 import "./ResponsiveCards.scss";
 import Card from "../components/Card";
+import image from "../assets/1.png";
 const ResponsiveCards = (props) => {
     return (
         <Row>
