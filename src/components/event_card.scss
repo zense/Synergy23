@@ -15,20 +15,14 @@
     color: white;
 }
 
-
-
-.btn-purple:hover,
-.btn-purple:active,
-.btn-purple:focus,
 .btn-purple{
     background-color:#BE00D7!important;
     color: white  !important;
     border: none  !important;
-    width: 90% !important;
-    height: 8vmin;
-    margin-top: 5vmin;
     font-size: 3.3vmin !important;
     font-weight: 600 !important;
+    width: 45%;
+    
 
 }
 .imagecol{
@@ -38,7 +32,7 @@
 }
 .sideimg{
     /* width: 100%; */
-    height: 520px;
+    height: 500px;
 }
 
 //
@@ -140,19 +134,44 @@
     height: 25px;
     color: white;
 }
+.button_container{
+    gap: 10px;
+    padding-inline: 20px;
+    a{
+        text-decoration: none;
+        color: white;
+        font-size: 25px;
+        height: 6vmin;
+    }
+}
 @media (max-width:767px){
+    .title_row{
+        align-items: center;
+        justify-content: center;
+        font-size: 35px;
+        padding: 1px;
+    }
     .sideimg{
         width: 94vw;
         height: auto;
         padding: 4vw;
+        margin: 0;
+    }
+    .button_container{
+        flex-direction: column;
+        padding-inline: 4vmin;
     }
     .btn{
         width: 100vw !important;
-        padding-top: 0;
-        margin-top: 1vmin;
-        height: 11vmin;
+        margin-top: 2vmin !important;
+        a{
+            color: white ;
+            text-decoration: none ;
+            width: 100%;
+            font-size: 4vmin;
+            height: 10vmin;
+        }
     }
-    .top_button{
-        margin-top: 3vmin;
-    }
+    
+    
 }

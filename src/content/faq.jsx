@@ -5,7 +5,7 @@ const faqs = [
     },
     {
         "question": "When will Synergy be held?",
-        "answer": "The main event will be held on the 20th,21st, and 22nd of January 2023. However many events and competitions of Synergy will kick off way earlier than the above-mentioned dates, so keep checking the website regularly for updates regarding the competitions in which you want to show your talent and potential!"
+        "answer": "The main event will be held on the 27th, 28th, 29th of October. However many events and competitions of Synergy will kick off way earlier than the above-mentioned dates, so keep checking the website regularly for updates regarding the competitions in which you want to show your talent and potential!"
     },
     {
         "question": "Is Synergy limitied to students of IIIT Bangalore?",
