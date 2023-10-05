@@ -17,6 +17,23 @@ export const teams = [
         ]
     },
     {
+        'group': 'Developers',
+        'list': [
+            {
+                "content": "Rohit Shah",
+                "img": ""
+            },
+            {
+                "content": "Ananthakrishna K",
+                "img": ""
+            },
+            {
+                "content": "Subhajeet Lahiri",
+                "img": ""
+            },
+        ]
+    },
+    {
         'group': 'Mentors',
         'list': [
             {
@@ -33,27 +50,6 @@ export const teams = [
             },
             {
                 "content": "Monjoy Narayan Choudhary",
-                "img": ""
-            },
-        ]
-    },
-    {
-        'group': 'Developers',
-        'list': [
-            {
-                "content": "Siddharth",
-                "img": ""
-            },
-            {
-                "content": "Rohit",
-                "img": ""
-            },
-            {
-                "content": "Keshav",
-                "img": ""
-            },
-            {
-                "content": "Sam",
                 "img": ""
             },
         ]

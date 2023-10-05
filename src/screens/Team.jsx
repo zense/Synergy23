@@ -11,6 +11,9 @@ import m1 from "../assets/m1.png"
 import m2 from "../assets/m2.png"
 import m3 from "../assets/m3.png"
 import m4 from "../assets/m4.png"
+import d1 from "../assets/d1.png"
+import d2 from "../assets/d2.png"
+import d3 from "../assets/d3.png"
 import Card from "../components/Card";
 
 const Teams = () => {
@@ -31,10 +34,20 @@ const Teams = () => {
                     <h1 className="wrapper__heading">{teams[1].group}<span className="dot_color">.</span></h1>
                     <Row>
                         <div className="card-body col-sm-6 col-md-4 col-lg-3 gap-5 col-xl-2 d-flex justify-content-center">
-                            <Card img={m1} content={teams[1].list[0].content} />
-                            <Card img={m2} content={teams[1].list[1].content} />
-                            <Card img={m3} content={teams[1].list[2].content} />
-                            <Card img={m4} content={teams[1].list[3].content} />
+                            <Card img={d1} content={teams[1].list[0].content} />
+                            <Card img={d2} content={teams[1].list[1].content} />
+                            <Card img={d3} content={teams[1].list[2].content} />
+                        </div>
+                    </Row>
+                </Container>
+                <Container className="wrapper">
+                    <h1 className="wrapper__heading">{teams[2].group}<span className="dot_color">.</span></h1>
+                    <Row>
+                        <div className="card-body col-sm-6 col-md-4 col-lg-3 gap-5 col-xl-2 d-flex justify-content-center">
+                            <Card img={m1} content={teams[2].list[0].content} />
+                            <Card img={m2} content={teams[2].list[1].content} />
+                            <Card img={m3} content={teams[2].list[2].content} />
+                            <Card img={m4} content={teams[2].list[3].content} />
                         </div>
                     </Row>
                 </Container>
