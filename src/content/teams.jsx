@@ -7,7 +7,7 @@ export const teams = [
                 "img": ""
             },
             {
-                "content": "Goutham UR",
+                "content": "Goutham U R",
                 "img": ""
             },
             {

@@ -19,9 +19,9 @@ const Collaborators = () => {
             <h1 className="collab_heading">Collaborators<span className="dot_color">.</span></h1>
             <div className="lab-logos d-flex justify-content-center align-items-center">
                <a href="https://ic.iiitb.ac.in/" target='_blank'><img src={ic_logo} alt="" /></a>
-               <a href="https://ic.iiitb.ac.in/" target='_blank'><img src={ctridg_logo} alt="" /></a>
-               <a href="https://ic.iiitb.ac.in/" target='_blank'><img src={ehrc_logo} alt="" /></a>
-               <a href="https://ic.iiitb.ac.in/" target='_blank'><img src={wsl_logo} alt="" /></a>
+               <a href="https://www.iiitb.ac.in/media/iiit-bangalore-announces-gok-funded-digital-governance-and-datadriven-planning-initiatives" target='_blank'><img src={ctridg_logo} alt="" /></a>
+               <a href="https://ehrc.iiitb.ac.in/" target='_blank'><img src={ehrc_logo} alt="" /></a>
+               <a href="https://wsl.iiitb.ac.in/" target='_blank'><img src={wsl_logo} alt="" /></a>
             </div>   
         </Container>
     </div>

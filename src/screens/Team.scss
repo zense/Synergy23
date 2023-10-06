@@ -59,3 +59,9 @@
     margin: 10px 10px;
     flex-wrap: wrap;
 }
+
+@media(max-width:767px){
+    .wrapper__heading{
+        text-align: center;
+    }
+}

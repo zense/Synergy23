@@ -53,7 +53,7 @@ const NavigationBar = () => {
                                     <BsInstagram style={{ fontSize: "1.5em" }} className='navbar-social-icons' />
                                 </a>
                             </span>
-                            <span className="nav-icons">
+                            {/* <span className="nav-icons">
                             <a href="https://twitter.com/IIITB_official" target="_blank" rel="noreferrer" >
                                                 <FaTwitter className='navbar-social-icons' style={{fontSize: "1.5em" }} />
                                             </a>
@@ -62,7 +62,7 @@ const NavigationBar = () => {
                             <a href="https://www.facebook.com/IIITBofficial/" target="_blank" rel="noreferrer">
                                                 <BsFacebook className='navbar-social-icons' style={{fontSize: "1.5em" }} />
                                             </a>
-                            </span>
+                            </span> */}
                         </div>
                     </Navbar.Collapse>
                 </Container>

@@ -23,7 +23,6 @@ root.render(
         <Route path="/events" element={<Events />} />
         <Route path="/team" element={<Team />} />
         <Route path="/collaborators" element={<Collaborators />} />
-        <Route path="/" element={<App />} />
       </Routes>
       <Footer />
     </BrowserRouter>
