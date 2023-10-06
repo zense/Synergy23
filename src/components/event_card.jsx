@@ -35,7 +35,6 @@ function EventCard(props) {
                   <a
                     className="details_link"
                     href={props.details}
-                    download={true}
                     target="_blank"
                   >
                     {props.text2}{" "}

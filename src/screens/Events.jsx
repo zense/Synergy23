@@ -14,7 +14,7 @@ function Events() {
             description1={"🎬Calling all aspiring filmmakers! It's time to bring your storytelling skills to life through Lens Flare, Synergy's short film competition. The pages of time turn, revealing stories untold. Dive into the theme 'The Metamorphosis of Time' and unleash your creativity to shape the past, present, and future.🎥"} 
             image={lensflare}
             text2="Event Details"
-            details={'../assets/LensFlare.pdf'}
+            details={'https://drive.google.com/uc?export=download&id=1_yiTSTklhpdOfPQqyL6BZoJlkI_kw3yD'}
             register={"https://docs.google.com/forms/d/e/1FAIpQLSfTktPQMk3OiHmR-PaO74yFyDo5LokL2HEQB1L8LygWkRHIAg/viewform"}
             submit={"https://docs.google.com/forms/d/e/1FAIpQLScH-clXkyoGdMIlHYsp9OG3JahL-hhRa6JZV1PwrsIgB7zUQQ/viewform"} />
 
