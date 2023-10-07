@@ -24,7 +24,7 @@ const Faq = () => {
             <div className="faq container">
                 <h1 className="faq-heading aos-init" data-aos="fade-up" >Faq<span className="dot_color">.</span></h1>
                 {/* center accordion div */}
-                <div className="row accordion aos-init" data-aos="fade-up">
+                <div className="row accordion">
                     {renderFaqs(faqs)}
                 </div>
             </div>

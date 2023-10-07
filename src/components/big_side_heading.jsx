@@ -1,7 +1,7 @@
 import './big_side_heading.scss';
 const Big_side_heading = (props)=>{
-    return <div className="big_side_heading container-fluid aos-init" data-aos="fade-up">
-        <div className="row">
+    return <div className="big_side_heading container-fluid">
+        <div className="row aos-init" data-aos="fade-up">
             <div className="col-12 col-md-4 heading_column">
                 {/* for smaller screens */}
                 <div className="row d-block d-md-none">
