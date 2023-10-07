@@ -4,7 +4,7 @@ import rect from "../assets/rect55.png";
 const Card = (props) => {
     return (
         <>
-            <div className="card-main">
+            <div className="card-main aos-init" data-aos="fade-up">
                 <div className="cont">
                     <img className="cardimg" src={props.img} alt="" />
                     <p>{props.content}</p>

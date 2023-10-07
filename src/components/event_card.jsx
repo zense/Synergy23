@@ -9,7 +9,7 @@ function EventCard(props) {
   }, [])
   
   return (
-    <div className="EventCard container">
+    <div className="EventCard container aos-init" data-aos="zoom-in-up" >
       <div className="row">
         <div className="col-5 d-none d-md-block imagecol">
           <div className="row">

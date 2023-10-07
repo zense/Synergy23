@@ -24,7 +24,7 @@ const Teams = () => {
         subtitle={team_page_subtitle}
       />
       <Container className="wrapper">
-        <h1 className="wrapper__heading">
+        <h1 className="wrapper__heading aos-init" data-aos="fade-up">
           {teams[0].group}
           <span className="dot_color">.</span>
         </h1>
@@ -52,7 +52,7 @@ const Teams = () => {
         </Row>
       </Container>
       <Container className="wrapper">
-        <h1 className="wrapper__heading">
+        <h1 className="wrapper__heading aos-init" data-aos="fade-up">
           {teams[1].group}
           <span className="dot_color">.</span>
         </h1>
@@ -80,7 +80,7 @@ const Teams = () => {
         </Row>
       </Container>
       <Container className="wrapper">
-        <h1 className="wrapper__heading">
+        <h1 className="wrapper__heading aos-init" data-aos="fade-up">
           {teams[2].group}
           <span className="dot_color">.</span>
         </h1>
