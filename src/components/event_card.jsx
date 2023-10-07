@@ -51,7 +51,7 @@ function EventCard(props) {
               <a
                 href={props.register}
                 target="_blank"
-                className="d-flex align-items-center justify-content-center"
+                className="d-flex align-items-center justify-content-center button-link"
               >
                 Register
               </a>
@@ -60,7 +60,7 @@ function EventCard(props) {
               <a
                 href={props.submit}
                 target="_blank"
-                className="d-flex align-items-center justify-content-center"
+                className="d-flex align-items-center justify-content-center button-link"
               >
                 Submit
               </a>
