@@ -5,6 +5,7 @@ import "./Events.scss";
 import lensflare from "../assets/lensflare.png";
 import synmun from "../assets/synmun.png";
 import pp from "../assets/pp.png";
+import pixelFlow from "../assets/pixel-flow.png"
 
 function Events() {
   return (
@@ -82,6 +83,34 @@ function Events() {
         hide2="sm2"
         details=""
         register={""}
+        submit={""}
+      />
+
+      <EventCard
+        title="Pixel Flow"
+        description1={
+          'Synergy presents "Pixel Flow," a thrilling journey into the world of UI/UX design. Unleash your creative genius, innovate, and be part of shaping the future of user interfaces.'
+        }
+        image={pixelFlow}
+        text2="Event Details"
+        hide2="pp2"
+        details={
+            "https://drive.google.com/uc?export=download&id=1PHtYTxPGP06Hed_nvnjRrEKsz8ZCOQoW"
+          }
+        linkimg={<svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-link"
+              viewBox="0 0 16 16"
+            >
+              <path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z" />
+              <path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z" />
+            </svg>}
+        register={
+          "https://forms.gle/EaUTBP74M1L2CU6q7"
+        }
         submit={""}
       />
 

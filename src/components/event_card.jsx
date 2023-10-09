@@ -4,10 +4,10 @@ function EventCard(props) {
   useEffect(() => {
     let btn1 = document.getElementById("sm1")
     btn1.className="d-none"
-    let btn2 = document.getElementById("sm2")
-    btn2.className="d-none"
-    let pp2 = document.getElementById("pp2")
-    pp2.className="d-none"
+    // let btn2 = document.getElementById("sm2")
+    // btn2.className="d-none"
+    // let pp2 = document.getElementById("pp2")
+    // pp2.className="d-none"
   }, [])
   
   return (
@@ -56,7 +56,7 @@ function EventCard(props) {
                 Register
               </a>
             </div>
-            <div className="col btn btn-purple d-flex align-items-center justify-content-center" id={props.hide2}>
+            {/* <div className="col btn btn-purple d-flex align-items-center justify-content-center" id={props.hide2}>
               <a
                 href={props.submit}
                 target="_blank"
@@ -64,7 +64,7 @@ function EventCard(props) {
               >
                 Submit
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
