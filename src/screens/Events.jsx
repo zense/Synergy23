@@ -23,7 +23,7 @@ function Events() {
         image={lensflare}
         text2="Event Details"
         details={
-          "https://drive.google.com/uc?export=download&id=1_yiTSTklhpdOfPQqyL6BZoJlkI_kw3yD"
+          "https://drive.google.com/uc?export=download&id=1j1e7J_eO2y-I-I9oWWbXFzCDQnvklk4k"
         }
         linkimg={<svg
             xmlns="http://www.w3.org/2000/svg"
@@ -36,10 +36,11 @@ function Events() {
             <path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z" />
             <path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z" />
           </svg>}
-        register={
+        btn1_text="Register"
+        link1={
           "https://docs.google.com/forms/d/e/1FAIpQLSfTktPQMk3OiHmR-PaO74yFyDo5LokL2HEQB1L8LygWkRHIAg/viewform"
         }
-        submit={
+        link2={
           "https://docs.google.com/forms/d/e/1FAIpQLScH-clXkyoGdMIlHYsp9OG3JahL-hhRa6JZV1PwrsIgB7zUQQ/viewform"
         }
       />
@@ -53,7 +54,7 @@ function Events() {
         text2="Event Details"
         hide2="pp2"
         details={
-            "https://drive.google.com/uc?export=download&id=1b4Y8fUhUrCtSX854oi2m4FoazWKEyMHs"
+            "https://drive.google.com/uc?export=download&id=1SHW_25YPNsyBADpcHLFLOU5UVTYfMlW0"
           }
         linkimg={<svg
               xmlns="http://www.w3.org/2000/svg"
@@ -66,7 +67,8 @@ function Events() {
               <path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z" />
               <path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z" />
             </svg>}
-        register={
+        btn1_text="Register"
+        link1={
           "https://docs.google.com/forms/d/e/1FAIpQLSeuJr_17cQXBrO7boOP-BOPO_U5NGrtFBSR2swA-5O87HT9fQ/viewform?usp=sf_link"
         }
         submit={""}
@@ -78,12 +80,28 @@ function Events() {
           "🌍 It's time to bridge the gap between tech and global diplomacy! 💻 Join us at SYNMUN 2023 as we redefine the future where technology and global affairs converge. 🌐 Delegates, prepare to debate, collaborate, and find innovative solutions to global challenges alongside world leaders, companies, and activists."
         }
         image={synmun}
-        text2="Registration opening shortly! Stay tuned."
+        linkimg={<svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="bi bi-link"
+          viewBox="0 0 16 16"
+        >
+          <path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z" />
+          <path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z" />
+        </svg>}
+        text2="Event Details"
+        text3="Matrix"
+        btn1_text="Individual Registration"
+        btn2_text="Delegation Registration"
         hide1="sm1"
         hide2="sm2"
-        details=""
-        register={""}
-        submit={""}
+        secondlink="secondlink"
+        details="https://drive.google.com/uc?export=download&id=1qkWCjMchYI2RSjfe-a-MjHmJT-5Gyu51"
+        details2="https://drive.google.com/uc?export=download&id=1sUHWxGGm7xDLLzN0DacQJZR07ToOGkTH"
+        link1="https://forms.gle/DDnKGSopVYjtWGLi6"
+        link2="https://forms.gle/FvDxYd8SteJnNGed9"
       />
 
       <EventCard
@@ -95,7 +113,7 @@ function Events() {
         text2="Event Details"
         hide2="pp2"
         details={
-            "https://drive.google.com/uc?export=download&id=1PHtYTxPGP06Hed_nvnjRrEKsz8ZCOQoW"
+            "https://drive.google.com/uc?export=download&id=1Z0cTEKQjaJyf2njbADQFzQ22Z0cy4GZE"
           }
         linkimg={<svg
               xmlns="http://www.w3.org/2000/svg"
@@ -108,10 +126,11 @@ function Events() {
               <path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z" />
               <path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z" />
             </svg>}
-        register={
+            btn1_text="Register"
+        link1={
           "https://forms.gle/EaUTBP74M1L2CU6q7"
         }
-        submit={""}
+        link2={""}
       />
 
       <h1 className="temp_events">
