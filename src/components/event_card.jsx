@@ -4,6 +4,8 @@ function EventCard(props) {
   useEffect(() => {
     let btn1 = document.getElementById("sm2")
     btn1.className="col btn btn-purple d-flex align-items-center justify-content-center"
+    let btn3 = document.getElementById("lf2")
+    btn3.className="col btn btn-purple d-flex align-items-center justify-content-center"
     let btn2 = document.getElementById("secondlink")
     btn2.className="accordion-content"
     // let btn2 = document.getElementById("sm2")

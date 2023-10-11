@@ -38,8 +38,8 @@ function Events() {
           </svg>}
         btn1_text="Register"
         btn2_text="Submit"
-        hide1="sm1"
-        hide2="sm2"
+        hide1="lf1"
+        hide2="lf2"
         link1={
           "https://docs.google.com/forms/d/e/1FAIpQLSfTktPQMk3OiHmR-PaO74yFyDo5LokL2HEQB1L8LygWkRHIAg/viewform"
         }
