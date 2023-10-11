@@ -23,7 +23,7 @@ function Events() {
         image={lensflare}
         text2="Event Details"
         details={
-          "https://drive.google.com/uc?export=download&id=1j1e7J_eO2y-I-I9oWWbXFzCDQnvklk4k"
+          "https://drive.google.com/uc?export=download&id=1JzTOsyFZyfP6Tu74_mjSNmnSJry26WKY"
         }
         linkimg={<svg
             xmlns="http://www.w3.org/2000/svg"
@@ -37,6 +37,9 @@ function Events() {
             <path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z" />
           </svg>}
         btn1_text="Register"
+        btn2_text="Submit"
+        hide1="sm1"
+        hide2="sm2"
         link1={
           "https://docs.google.com/forms/d/e/1FAIpQLSfTktPQMk3OiHmR-PaO74yFyDo5LokL2HEQB1L8LygWkRHIAg/viewform"
         }
@@ -54,7 +57,7 @@ function Events() {
         text2="Event Details"
         hide2="pp2"
         details={
-            "https://drive.google.com/uc?export=download&id=1SHW_25YPNsyBADpcHLFLOU5UVTYfMlW0"
+            "https://drive.google.com/uc?export=download&id=14us5HI2Ke8rFPqFjcrsABflipDNuSz5P"
           }
         linkimg={<svg
               xmlns="http://www.w3.org/2000/svg"
@@ -98,8 +101,8 @@ function Events() {
         hide1="sm1"
         hide2="sm2"
         secondlink="secondlink"
-        details="https://drive.google.com/uc?export=download&id=1qkWCjMchYI2RSjfe-a-MjHmJT-5Gyu51"
-        details2="https://drive.google.com/uc?export=download&id=1sUHWxGGm7xDLLzN0DacQJZR07ToOGkTH"
+        details="https://drive.google.com/uc?export=download&id=1DZbFmnC4sxF11nYxwLormzYnEunXRSFi"
+        details2="https://drive.google.com/uc?export=download&id=1R5xDEk3BBgvly3ReK2GNFrX-eIhWWIgG"
         link1="https://forms.gle/DDnKGSopVYjtWGLi6"
         link2="https://forms.gle/FvDxYd8SteJnNGed9"
       />
@@ -113,7 +116,7 @@ function Events() {
         text2="Event Details"
         hide2="pp2"
         details={
-            "https://drive.google.com/uc?export=download&id=1Z0cTEKQjaJyf2njbADQFzQ22Z0cy4GZE"
+            "https://drive.google.com/uc?export=download&id=1ggG4eyxg4DE_g7iJAPAAPJVYkIVfi8eb"
           }
         linkimg={<svg
               xmlns="http://www.w3.org/2000/svg"
