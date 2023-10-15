@@ -132,7 +132,7 @@ function Events() {
             </svg>}
             btn1_text="Register"
         link1={
-          "https://forms.gle/EaUTBP74M1L2CU6q7"
+          "https://unstop.com/hackathons/pixel-flow-international-institute-of-information-technology-iiit-bangalore-796739"
         }
         link2={""}
       />
