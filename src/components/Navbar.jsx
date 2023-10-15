@@ -8,7 +8,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import './Navbar.scss';
 import synergylogo from '../assets/synergy-logo.svg';
-import { BsFacebook, BsInstagram, BsLinkedin } from "react-icons/bs";
+import { BsFacebook, BsInstagram, BsLinkedin, BsDiscord } from "react-icons/bs";
 import { FaTwitter } from "react-icons/fa";
 import { isMobile } from "react-device-detect";
 const NavigationBar = () => {
@@ -51,6 +51,11 @@ const NavigationBar = () => {
                             <span className="nav-icons">
                                 <a href="https://www.instagram.com/synergy_iiitb/" target="_blank" rel="noreferrer">
                                     <BsInstagram style={{ fontSize: "1.5em" }} className='navbar-social-icons' />
+                                </a>
+                            </span>
+                            <span className="nav-icons">
+                                <a href="https://discord.gg/bBSKD7xZTf" target="_blank" rel="noreferrer">
+                                    <BsDiscord style={{ fontSize: "1.5em" }} className='navbar-social-icons' />
                                 </a>
                             </span>
                             {/* <span className="nav-icons">
