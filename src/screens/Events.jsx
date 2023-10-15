@@ -6,6 +6,7 @@ import lensflare from "../assets/lensflare.png";
 import synmun from "../assets/synmun.png";
 import pp from "../assets/pp.png";
 import pixelFlow from "../assets/pixel-flow.png"
+import bs from "../assets/bs.png"
 
 function Events() {
   return (
@@ -132,6 +133,35 @@ function Events() {
             btn1_text="Register"
         link1={
           "https://forms.gle/EaUTBP74M1L2CU6q7"
+        }
+        link2={""}
+      />
+
+<EventCard
+        title="ByteSynergy 2.0"
+        description1={
+          "Bytesynergy, hosted by IIIT-B, is a thrilling hackathon where tech enthusiasts converge to tackle challenges collectively. Over 3 weeks of coding and creativity, participants harness tech's potential to foster synergy and craft impactful solutions, all while competing for exciting prizes. Compete, collaborate, and forge valuable tech connections at this innovation-driven event."
+        }
+        image={bs}
+        text2="Event Details"
+        hide2="pp2"
+        details={
+            "https://unstop.com/hackathons/byte-synergy-20-international-institute-of-information-technology-iiit-bangalore-796046?utm_campaign=site-emails&utm_medium=d2c-automated&utm_source=opportunity-approved"
+          }
+        linkimg={<svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-link"
+              viewBox="0 0 16 16"
+            >
+              <path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z" />
+              <path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z" />
+            </svg>}
+            btn1_text="Register on Unstop"
+        link1={
+          "https://unstop.com/hackathons/byte-synergy-20-international-institute-of-information-technology-iiit-bangalore-796046?utm_campaign=site-emails&utm_medium=d2c-automated&utm_source=opportunity-approved"
         }
         link2={""}
       />
