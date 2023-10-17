@@ -103,8 +103,11 @@ function Events() {
         hide1="sm1"
         hide2="sm2"
         secondlink="secondlink"
+        thirdlink = {true}
+        text4 = "SynMUN Allocations (so far)"
         details="https://drive.google.com/uc?export=download&id=1DZbFmnC4sxF11nYxwLormzYnEunXRSFi"
         details2="https://drive.google.com/uc?export=download&id=1R5xDEk3BBgvly3ReK2GNFrX-eIhWWIgG"
+        details3="https://drive.google.com/file/d/11gOE_WK6bfFdeKAl8yY6ME2C0mDjFpk0/view?usp=sharing"
         link1="https://forms.gle/DDnKGSopVYjtWGLi6"
         link2="https://forms.gle/FvDxYd8SteJnNGed9"
       />
