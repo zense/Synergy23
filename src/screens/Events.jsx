@@ -25,7 +25,7 @@ function Events() {
         image={lensflare}
         text2="Event Details"
         details={
-          "https://drive.google.com/uc?export=download&id=1JzTOsyFZyfP6Tu74_mjSNmnSJry26WKY"
+          "https://drive.google.com/uc?export=download&id=1x1NL9C7hXyTkhy--n504LZXP6dfHl9w-"
         }
         linkimg={<svg
             xmlns="http://www.w3.org/2000/svg"
