@@ -33,9 +33,10 @@ function EventCard(props) {
           </div>
           <div className="row">
             <div class="accordion" id="accordionExample">
-              <div className="accordion-content">
+            <div className="accordion-content">
                 <div className="event_text">{props.description1}</div>
               </div>
+              {props.hideDetails ? null : 
               <div className="accordion-content">
                 <div className="event_text">
                   <a
@@ -47,7 +48,7 @@ function EventCard(props) {
                     {props.linkimg}
                   </a>
                 </div>
-              </div>
+              </div>}
               <div className="accordion-content d-none" id={props.secondlink}>
                 <div className="event_text">
                   <a

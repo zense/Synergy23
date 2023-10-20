@@ -8,6 +8,7 @@ import pp from "../assets/pp.png";
 import pixelFlow from "../assets/pixel-flow.png"
 import bs from "../assets/bs.png"
 import bitsAndBots from "../assets/bits&bots.png"
+import cq from "../assets/codequest.png"
 
 function Events() {
   return (
@@ -198,6 +199,43 @@ function Events() {
         }
         link2={""}
       />
+
+      
+<EventCard
+        title="Code Quest"
+        description1={
+          <>
+            Dive into an exhilarating 2-hour-long coding challenge, where you'll journey to the top through a maze of challenging problems. Put your mastery of data structures, algorithms, and mathematics to the ultimate test at CodeQuest! <br></br> 
+            <b>Time : 01 November 2023, 1430 hours <br/>
+            Platform : Codeforces <br></br></b>
+            Join the group using the link below if you haven't already done so.
+          </>
+        }
+        image={cq}
+        
+        // text2="Event Details"
+        hideDetails="True"
+        // details={
+        //     "https://drive.google.com/uc?export=download&id=14us5HI2Ke8rFPqFjcrsABflipDNuSz5P"
+        //   }
+        linkimg={<svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-link"
+              viewBox="0 0 16 16"
+            >
+              <path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z" />
+              <path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z" />
+            </svg>}
+        btn1_text="Join the contest group"
+        link1={
+          "https://codeforces.com/group/LFydcz3dww/contests"
+        }
+        submit={""}
+      />
+
 
       <h1 className="temp_events">
         Excitement alert : More events are en route !
