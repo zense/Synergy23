@@ -116,10 +116,11 @@ function Events() {
       <EventCard
         title="Pixel Flow"
         description1={
-          'Synergy presents "Pixel Flow," a thrilling journey into the world of UI/UX design. Unleash your creative genius, innovate, and be part of shaping the future of user interfaces.'
+          'Synergy, the tech fest of IIIT-Bangalore, presents the "48-Hour UI/UX Design Challenge" – a thrilling competition that will push your design abilities to the limit. Participants will be given a design problem or theme related to technology, innovation, or future trends. The challenge is to craft an exceptional user interface (UI) and user experience (UX) design that not only addresses the problem but also showcases innovation and creativity.'
         }
         image={pixelFlow}
         text2="Event Details"
+        hideDetails="True"
         hide2="pp2"
         details={
             "https://drive.google.com/uc?export=download&id=1ggG4eyxg4DE_g7iJAPAAPJVYkIVfi8eb"

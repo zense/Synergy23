@@ -8,8 +8,6 @@ function EventCard(props) {
     btn3.className="col btn btn-purple d-flex align-items-center justify-content-center"
     let btn2 = document.getElementById("secondlink")
     btn2.className="accordion-content"
-    // let btn2 = document.getElementById("sm2")
-    // btn2.className="d-none"
     // let pp2 = document.getElementById("pp2")
     // pp2.className="d-none"
   }, [])
