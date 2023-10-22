@@ -49,7 +49,7 @@ export const teams = [
                 "img": ""
             },
             {
-                "content": "Monjoy Narayan Choudhary",
+                "content": "Monjoy Narayan Choudhury",
                 "img": ""
             },
         ]

@@ -54,7 +54,7 @@ function Events() {
       <EventCard
         title="Pitching Pixels"
         description1={
-          "Welcome to Pitching Pixels, your gateway to the future of startups. Immerse yourself in our dynamic hackathon, where innovation and entrepreneurship intertwine. Join us on a journey to bring your startup ideas to life, turning dreams into successful businesses. Discover the power of collaboration, creativity, and technology at Pitching Pixels!"
+          "Welcome to Pitching Pixels, your gateway to the future of startups. Immerse yourself in our dynamic ideathon, where innovation and entrepreneurship intertwine. Join us on a journey to bring your startup ideas to life, turning dreams into successful businesses. Discover the power of collaboration, creativity, and technology at Pitching Pixels!"
         }
         image={pp}
         text2="Event Details"
@@ -107,7 +107,7 @@ function Events() {
         thirdlink = {true}
         text4 = "SynMUN Allocations (so far)"
         details="https://drive.google.com/uc?export=download&id=1DZbFmnC4sxF11nYxwLormzYnEunXRSFi"
-        details2="https://drive.google.com/uc?export=download&id=1R5xDEk3BBgvly3ReK2GNFrX-eIhWWIgG"
+        details2="https://drive.google.com/uc?export=download&id=1DeKGyfbXEdrvnz9iZd0TXp78lh2ZaMTQ"
         details3="https://drive.google.com/file/d/11gOE_WK6bfFdeKAl8yY6ME2C0mDjFpk0/view?usp=sharing"
         link1="https://forms.gle/DDnKGSopVYjtWGLi6"
         link2="https://forms.gle/FvDxYd8SteJnNGed9"
@@ -145,7 +145,7 @@ function Events() {
       <EventCard
         title="ByteSynergy 2.0"
         description1={
-          "Bytesynergy, hosted by IIIT-B, is a thrilling hackathon where tech enthusiasts converge to tackle challenges collectively. Over 3 weeks of coding and creativity, participants harness tech's potential to foster synergy and craft impactful solutions, all while competing for exciting prizes. Compete, collaborate, and forge valuable tech connections at this innovation-driven event."
+          "ByteSynergy, hosted by IIIT-B, is a thrilling hackathon where tech enthusiasts converge to tackle challenges collectively. Over 3 weeks of coding and creativity, participants harness tech's potential to foster synergy and craft impactful solutions, all while competing for exciting prizes. Compete, collaborate, and forge valuable tech connections at this innovation-driven event."
         }
         image={bs}
         text2="Event Details"
