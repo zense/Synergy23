@@ -108,7 +108,7 @@ function Events() {
         text4 = "SynMUN Allocations (so far)"
         details="https://drive.google.com/uc?export=download&id=1DZbFmnC4sxF11nYxwLormzYnEunXRSFi"
         details2="https://drive.google.com/uc?export=download&id=1DeKGyfbXEdrvnz9iZd0TXp78lh2ZaMTQ"
-        details3="https://drive.google.com/file/d/11gOE_WK6bfFdeKAl8yY6ME2C0mDjFpk0/view?usp=sharing"
+        details3="https://drive.google.com/uc?export=download&id=1ONlNGLw9G1ldswbIjVvZx-PdISXOd-ff"
         link1="https://forms.gle/DDnKGSopVYjtWGLi6"
         link2="https://forms.gle/FvDxYd8SteJnNGed9"
       />
