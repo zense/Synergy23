@@ -105,10 +105,13 @@ function Events() {
         hide2="sm2"
         secondlink="secondlink"
         thirdlink = {true}
+        fourthlink = {true}
         text4 = "SynMUN Allocations (so far)"
+        text5="Background Guide"
         details="https://drive.google.com/uc?export=download&id=1DZbFmnC4sxF11nYxwLormzYnEunXRSFi"
         details2="https://drive.google.com/uc?export=download&id=1DeKGyfbXEdrvnz9iZd0TXp78lh2ZaMTQ"
         details3="https://drive.google.com/uc?export=download&id=1ONlNGLw9G1ldswbIjVvZx-PdISXOd-ff"
+        details4="https://docs.google.com/document/d/1Y63VXMKHtNf-VlWZcBhtNIciIKOb72g3joRW1M0384Y/edit?usp=sharing"
         link1="https://forms.gle/DDnKGSopVYjtWGLi6"
         link2="https://forms.gle/FvDxYd8SteJnNGed9"
       />

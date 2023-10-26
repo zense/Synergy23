@@ -74,6 +74,21 @@ function EventCard(props) {
                 </div>
               </div> : null
               }
+              {
+                props.fourthlink ?
+                <div className="accordion-content">
+                <div className="event_text">
+                  <a
+                    className="details_link"
+                    href={props.details4}
+                    target="_blank"
+                  >
+                    {props.text5}{" "}
+                    {props.linkimg}
+                  </a>
+                </div>
+              </div> : null
+              }
             </div>
           </div>
           <div className="row button_container d-flex">
